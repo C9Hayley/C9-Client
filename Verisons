@@ -1,1 +1,2375 @@
+-- The Offical C9Client Made for prison life by C9Stud himself!!!
+-- Client verison: v0.5.0 
+
+-- Instances:
+
+local C9Client = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local GrabShotgun = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local GrabMP5 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Grabm4a1 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Swatload = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Frame_3 = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local UICorner_8 = Instance.new("UICorner")
+local GuardSnip = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Grabsniper = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local CriminalSniper = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local GrabAK = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local GrabFAL = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Mafia = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local AKREM = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local MP5REM = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local M4REm = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Frame_4 = Instance.new("Frame")
+local UICorner_18 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local UICorner_19 = Instance.new("UICorner")
+local freecam = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local fly = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local aimlock = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local clicktp = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local follow = Instance.new("Frame")
+local FollowButton = Instance.new("TextButton")
+local UsernameBox = Instance.new("TextBox")
+local UICorner_24 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local Playerspeed = Instance.new("Frame")
+local SpeedButton = Instance.new("TextButton")
+local UsernameBox_2 = Instance.new("TextBox")
+local UICorner_25 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local view = Instance.new("Frame")
+local ViewButton = Instance.new("TextButton")
+local UsernameBox_3 = Instance.new("TextBox")
+local UICorner_26 = Instance.new("UICorner")
+local TextLabel_7 = Instance.new("TextLabel")
+local tp = Instance.new("Frame")
+local UsernameBox_4 = Instance.new("TextBox")
+local TeleportButton = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+
+--Properties:
+
+C9Client.Name = "C9Client"
+C9Client.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+C9Client.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = C9Client
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BackgroundTransparency = 0.700
+Frame.BorderColor3 = Color3.fromRGB(113, 113, 113)
+Frame.BorderSizePixel = 2
+Frame.Position = UDim2.new(0.366722226, 0, 0.216468394, 0)
+Frame.Size = UDim2.new(0, 362, 0, 454)
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+Frame_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(-0.000474118395, 0, -0.00347234914, 0)
+Frame_2.Size = UDim2.new(0, 362, 0, 35)
+
+UICorner.Parent = Frame_2
+
+TextLabel.Parent = Frame_2
+TextLabel.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0371618122, 0, 0.0285714287, 0)
+TextLabel.Size = UDim2.new(0, 88, 0, 34)
+TextLabel.Font = Enum.Font.Fantasy
+TextLabel.Text = "C9"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 20.000
+
+TextLabel_2.Parent = Frame_2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.164548218, 0, 0.0285714287, 0)
+TextLabel_2.Size = UDim2.new(0, 66, 0, 34)
+TextLabel_2.Font = Enum.Font.Fantasy
+TextLabel_2.Text = "Client"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 85, 255)
+TextLabel_2.TextSize = 20.000
+
+UICorner_2.Parent = Frame
+
+ScrollingFrame.Parent = Frame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(-0.00276243105, 0, 0.0859030858, 0)
+ScrollingFrame.Size = UDim2.new(0, 363, 0, 415)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 200)
+
+GrabShotgun.Name = "GrabShotgun"
+GrabShotgun.Parent = ScrollingFrame
+GrabShotgun.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+GrabShotgun.BorderColor3 = Color3.fromRGB(27, 42, 53)
+GrabShotgun.Position = UDim2.new(0.0263123736, 0, 0.0151360398, 0)
+GrabShotgun.Size = UDim2.new(0, 105, 0, 28)
+GrabShotgun.Font = Enum.Font.GothamBlack
+GrabShotgun.Text = "Grab Shotgun"
+GrabShotgun.TextColor3 = Color3.fromRGB(255, 255, 255)
+GrabShotgun.TextSize = 14.000
+
+UICorner_3.Parent = GrabShotgun
+
+GrabMP5.Name = "GrabMP5"
+GrabMP5.Parent = ScrollingFrame
+GrabMP5.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+GrabMP5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+GrabMP5.Position = UDim2.new(0.345871598, 0, 0.0144487228, 0)
+GrabMP5.Size = UDim2.new(0, 105, 0, 28)
+GrabMP5.Font = Enum.Font.GothamBlack
+GrabMP5.Text = "Grab MP5"
+GrabMP5.TextColor3 = Color3.fromRGB(255, 255, 255)
+GrabMP5.TextSize = 14.000
+
+UICorner_4.Parent = GrabMP5
+
+Grabm4a1.Name = "Grabm4a1"
+Grabm4a1.Parent = ScrollingFrame
+Grabm4a1.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Grabm4a1.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Grabm4a1.Position = UDim2.new(0.657166362, 0, 0.0151360398, 0)
+Grabm4a1.Size = UDim2.new(0, 105, 0, 28)
+Grabm4a1.Font = Enum.Font.GothamBlack
+Grabm4a1.Text = "Grab M4A1"
+Grabm4a1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Grabm4a1.TextSize = 14.000
+
+UICorner_5.Parent = Grabm4a1
+
+Swatload.Name = "Swatload"
+Swatload.Parent = ScrollingFrame
+Swatload.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Swatload.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Swatload.Position = UDim2.new(0.0263123736, 0, 0.161404818, 0)
+Swatload.Size = UDim2.new(0, 105, 0, 28)
+Swatload.Font = Enum.Font.GothamBlack
+Swatload.Text = "Swat"
+Swatload.TextColor3 = Color3.fromRGB(255, 255, 255)
+Swatload.TextSize = 14.000
+
+UICorner_6.Parent = Swatload
+
+Frame_3.Parent = ScrollingFrame
+Frame_3.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+Frame_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0.00228066347, 0, 0.125382274, 0)
+Frame_3.Size = UDim2.new(0, 362, 0, 26)
+
+UICorner_7.Parent = Frame_3
+
+TextLabel_3.Parent = Frame_3
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.376940817, 0, -0.163736194, 0)
+TextLabel_3.Size = UDim2.new(0, 88, 0, 34)
+TextLabel_3.Font = Enum.Font.Fantasy
+TextLabel_3.Text = "LoadOuts"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 20.000
+
+UICorner_8.Parent = TextLabel_3
+
+GuardSnip.Name = "GuardSnip"
+GuardSnip.Parent = ScrollingFrame
+GuardSnip.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+GuardSnip.BorderColor3 = Color3.fromRGB(27, 42, 53)
+GuardSnip.Position = UDim2.new(0.343245238, 0, 0.161577106, 0)
+GuardSnip.Size = UDim2.new(0, 105, 0, 28)
+GuardSnip.Font = Enum.Font.GothamBlack
+GuardSnip.Text = "Sniper(Guards)"
+GuardSnip.TextColor3 = Color3.fromRGB(255, 255, 255)
+GuardSnip.TextSize = 14.000
+
+UICorner_9.Parent = GuardSnip
+
+Grabsniper.Name = "Grabsniper"
+Grabsniper.Parent = ScrollingFrame
+Grabsniper.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Grabsniper.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Grabsniper.Position = UDim2.new(0.0263123736, 0, 0.0549906157, 0)
+Grabsniper.Size = UDim2.new(0, 105, 0, 28)
+Grabsniper.Font = Enum.Font.GothamBlack
+Grabsniper.Text = "Grab Sniper"
+Grabsniper.TextColor3 = Color3.fromRGB(255, 255, 255)
+Grabsniper.TextSize = 14.000
+
+UICorner_10.Parent = Grabsniper
+
+CriminalSniper.Name = "CriminalSniper"
+CriminalSniper.Parent = ScrollingFrame
+CriminalSniper.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+CriminalSniper.BorderColor3 = Color3.fromRGB(27, 42, 53)
+CriminalSniper.Position = UDim2.new(0.654540002, 0, 0.161577106, 0)
+CriminalSniper.Size = UDim2.new(0, 105, 0, 28)
+CriminalSniper.Font = Enum.Font.GothamBlack
+CriminalSniper.Text = "Sniper(Crims)"
+CriminalSniper.TextColor3 = Color3.fromRGB(255, 255, 255)
+CriminalSniper.TextSize = 14.000
+
+UICorner_11.Parent = CriminalSniper
+
+GrabAK.Name = "GrabAK"
+GrabAK.Parent = ScrollingFrame
+GrabAK.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+GrabAK.BorderColor3 = Color3.fromRGB(27, 42, 53)
+GrabAK.Position = UDim2.new(0.345871598, 0, 0.0549906269, 0)
+GrabAK.Size = UDim2.new(0, 105, 0, 28)
+GrabAK.Font = Enum.Font.GothamBlack
+GrabAK.Text = "Grab AK47"
+GrabAK.TextColor3 = Color3.fromRGB(255, 255, 255)
+GrabAK.TextSize = 14.000
+
+UICorner_12.Parent = GrabAK
+
+GrabFAL.Name = "GrabFAL"
+GrabFAL.Parent = ScrollingFrame
+GrabFAL.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+GrabFAL.BorderColor3 = Color3.fromRGB(27, 42, 53)
+GrabFAL.Position = UDim2.new(0.654411554, 0, 0.0549906269, 0)
+GrabFAL.Size = UDim2.new(0, 105, 0, 28)
+GrabFAL.Font = Enum.Font.GothamBlack
+GrabFAL.Text = "Grab FAL"
+GrabFAL.TextColor3 = Color3.fromRGB(255, 255, 255)
+GrabFAL.TextSize = 14.000
+
+UICorner_13.Parent = GrabFAL
+
+Mafia.Name = "Mafia"
+Mafia.Parent = ScrollingFrame
+Mafia.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Mafia.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Mafia.Position = UDim2.new(0.0264408328, 0, 0.202326, 0)
+Mafia.Size = UDim2.new(0, 105, 0, 28)
+Mafia.Font = Enum.Font.GothamBlack
+Mafia.Text = "Mafia"
+Mafia.TextColor3 = Color3.fromRGB(255, 255, 255)
+Mafia.TextSize = 14.000
+
+UICorner_14.Parent = Mafia
+
+AKREM.Name = "AKREM"
+AKREM.Parent = ScrollingFrame
+AKREM.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+AKREM.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AKREM.Position = UDim2.new(0.343245238, 0, 0.202326, 0)
+AKREM.Size = UDim2.new(0, 105, 0, 28)
+AKREM.Font = Enum.Font.GothamBlack
+AKREM.Text = "AK/REM"
+AKREM.TextColor3 = Color3.fromRGB(255, 255, 255)
+AKREM.TextSize = 14.000
+
+UICorner_15.Parent = AKREM
+
+MP5REM.Name = "MP5REM"
+MP5REM.Parent = ScrollingFrame
+MP5REM.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+MP5REM.BorderColor3 = Color3.fromRGB(27, 42, 53)
+MP5REM.Position = UDim2.new(0.654540002, 0, 0.202326, 0)
+MP5REM.Size = UDim2.new(0, 105, 0, 28)
+MP5REM.Font = Enum.Font.GothamBlack
+MP5REM.Text = "MP5/REM"
+MP5REM.TextColor3 = Color3.fromRGB(255, 255, 255)
+MP5REM.TextSize = 14.000
+
+UICorner_16.Parent = MP5REM
+
+M4REm.Name = "M4/REm"
+M4REm.Parent = ScrollingFrame
+M4REm.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+M4REm.BorderColor3 = Color3.fromRGB(27, 42, 53)
+M4REm.Position = UDim2.new(0.0264408328, 0, 0.240872249, 0)
+M4REm.Size = UDim2.new(0, 105, 0, 28)
+M4REm.Font = Enum.Font.GothamBlack
+M4REm.Text = "M4/REM"
+M4REm.TextColor3 = Color3.fromRGB(255, 255, 255)
+M4REm.TextSize = 14.000
+
+UICorner_17.Parent = M4REm
+
+Frame_4.Parent = ScrollingFrame
+Frame_4.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+Frame_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0.00228066347, 0, 0.281769931, 0)
+Frame_4.Size = UDim2.new(0, 362, 0, 26)
+
+UICorner_18.Parent = Frame_4
+
+TextLabel_4.Parent = Frame_4
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextLabel_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.376940817, 0, -0.163736194, 0)
+TextLabel_4.Size = UDim2.new(0, 88, 0, 34)
+TextLabel_4.Font = Enum.Font.Fantasy
+TextLabel_4.Text = "Unis"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 20.000
+
+UICorner_19.Parent = TextLabel_4
+
+freecam.Name = "freecam"
+freecam.Parent = ScrollingFrame
+freecam.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+freecam.BorderColor3 = Color3.fromRGB(27, 42, 53)
+freecam.Position = UDim2.new(0.0263123736, 0, 0.323174894, 0)
+freecam.Size = UDim2.new(0, 105, 0, 28)
+freecam.Font = Enum.Font.GothamBlack
+freecam.Text = "freecam(Shift + P)"
+freecam.TextColor3 = Color3.fromRGB(255, 255, 255)
+freecam.TextScaled = true
+freecam.TextSize = 14.000
+freecam.TextWrapped = true
+
+UICorner_20.Parent = freecam
+
+fly.Name = "fly"
+fly.Parent = ScrollingFrame
+fly.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+fly.BorderColor3 = Color3.fromRGB(27, 42, 53)
+fly.Position = UDim2.new(0.345871598, 0, 0.362202555, 0)
+fly.Size = UDim2.new(0, 105, 0, 28)
+fly.Font = Enum.Font.GothamBlack
+fly.Text = "Fly"
+fly.TextColor3 = Color3.fromRGB(255, 255, 255)
+fly.TextSize = 14.000
+
+UICorner_21.Parent = fly
+
+aimlock.Name = "aimlock"
+aimlock.Parent = ScrollingFrame
+aimlock.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+aimlock.BorderColor3 = Color3.fromRGB(27, 42, 53)
+aimlock.Position = UDim2.new(0.345871598, 0, 0.323297977, 0)
+aimlock.Size = UDim2.new(0, 105, 0, 28)
+aimlock.Font = Enum.Font.GothamBlack
+aimlock.Text = "Aimlock"
+aimlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+aimlock.TextSize = 14.000
+
+UICorner_22.Parent = aimlock
+
+clicktp.Name = "clicktp"
+clicktp.Parent = ScrollingFrame
+clicktp.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+clicktp.BorderColor3 = Color3.fromRGB(27, 42, 53)
+clicktp.Position = UDim2.new(0.654411554, 0, 0.322876781, 0)
+clicktp.Size = UDim2.new(0, 105, 0, 28)
+clicktp.Font = Enum.Font.GothamBlack
+clicktp.Text = "clicktp"
+clicktp.TextColor3 = Color3.fromRGB(255, 255, 255)
+clicktp.TextSize = 14.000
+
+UICorner_23.Parent = clicktp
+
+follow.Name = "follow"
+follow.Parent = ScrollingFrame
+follow.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+follow.BorderColor3 = Color3.fromRGB(0, 0, 0)
+follow.BorderSizePixel = 0
+follow.Position = UDim2.new(0.545548022, 0, 0.428882778, 0)
+follow.Size = UDim2.new(0, 143, 0, 56)
+
+FollowButton.Name = "FollowButton"
+FollowButton.Parent = follow
+FollowButton.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+FollowButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FollowButton.BorderSizePixel = 0
+FollowButton.Position = UDim2.new(0.0699300691, 0, 0.553571403, 0)
+FollowButton.Size = UDim2.new(0, 123, 0, 25)
+FollowButton.Font = Enum.Font.Unknown
+FollowButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+FollowButton.TextSize = 14.000
+
+UsernameBox.Name = "UsernameBox"
+UsernameBox.Parent = follow
+UsernameBox.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+UsernameBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UsernameBox.BorderSizePixel = 0
+UsernameBox.Position = UDim2.new(0.0699300691, 0, 0, 0)
+UsernameBox.Size = UDim2.new(0, 123, 0, 25)
+UsernameBox.Font = Enum.Font.Unknown
+UsernameBox.PlaceholderText = "Username input"
+UsernameBox.Text = ""
+UsernameBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+UsernameBox.TextSize = 14.000
+
+UICorner_24.Parent = follow
+
+TextLabel_5.Parent = follow
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.0107814549, 0, -0.428571433, 0)
+TextLabel_5.Size = UDim2.new(0, 136, 0, 20)
+TextLabel_5.Font = Enum.Font.Fantasy
+TextLabel_5.Text = "Follow player"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 20.000
+TextLabel_5.TextWrapped = true
+
+Playerspeed.Name = "Playerspeed"
+Playerspeed.Parent = ScrollingFrame
+Playerspeed.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Playerspeed.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Playerspeed.BorderSizePixel = 0
+Playerspeed.Position = UDim2.new(0.0245991852, 0, 0.516165495, 0)
+Playerspeed.Size = UDim2.new(0, 143, 0, 56)
+
+SpeedButton.Name = "SpeedButton"
+SpeedButton.Parent = Playerspeed
+SpeedButton.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+SpeedButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SpeedButton.BorderSizePixel = 0
+SpeedButton.Position = UDim2.new(0.0699300691, 0, 0.553571403, 0)
+SpeedButton.Size = UDim2.new(0, 123, 0, 25)
+SpeedButton.Font = Enum.Font.Unknown
+SpeedButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpeedButton.TextSize = 14.000
+
+UsernameBox_2.Name = "UsernameBox"
+UsernameBox_2.Parent = Playerspeed
+UsernameBox_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+UsernameBox_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UsernameBox_2.BorderSizePixel = 0
+UsernameBox_2.Position = UDim2.new(0.0699300691, 0, 0, 0)
+UsernameBox_2.Size = UDim2.new(0, 123, 0, 25)
+UsernameBox_2.Font = Enum.Font.Unknown
+UsernameBox_2.PlaceholderText = "Username input"
+UsernameBox_2.Text = ""
+UsernameBox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+UsernameBox_2.TextSize = 14.000
+
+UICorner_25.Parent = Playerspeed
+
+TextLabel_6.Parent = Playerspeed
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.0387534834, 0, -0.321428567, 0)
+TextLabel_6.Size = UDim2.new(0, 136, 0, 20)
+TextLabel_6.Font = Enum.Font.Fantasy
+TextLabel_6.Text = "PlayerSpeed"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 20.000
+TextLabel_6.TextWrapped = true
+
+view.Name = "view"
+view.Parent = ScrollingFrame
+view.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+view.BorderColor3 = Color3.fromRGB(0, 0, 0)
+view.BorderSizePixel = 0
+view.Position = UDim2.new(0.0219881255, 0, 0.431582689, 0)
+view.Size = UDim2.new(0, 143, 0, 56)
+
+ViewButton.Name = "ViewButton"
+ViewButton.Parent = view
+ViewButton.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+ViewButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ViewButton.BorderSizePixel = 0
+ViewButton.Position = UDim2.new(0.0699300691, 0, 0.553571403, 0)
+ViewButton.Size = UDim2.new(0, 123, 0, 25)
+ViewButton.Font = Enum.Font.Unknown
+ViewButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ViewButton.TextSize = 14.000
+
+UsernameBox_3.Name = "UsernameBox"
+UsernameBox_3.Parent = view
+UsernameBox_3.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+UsernameBox_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UsernameBox_3.BorderSizePixel = 0
+UsernameBox_3.Position = UDim2.new(0.0699300691, 0, 0, 0)
+UsernameBox_3.Size = UDim2.new(0, 123, 0, 25)
+UsernameBox_3.Font = Enum.Font.Unknown
+UsernameBox_3.PlaceholderText = "Username input"
+UsernameBox_3.Text = ""
+UsernameBox_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+UsernameBox_3.TextSize = 14.000
+
+UICorner_26.Parent = view
+
+TextLabel_7.Parent = view
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.0107814549, 0, -0.428571433, 0)
+TextLabel_7.Size = UDim2.new(0, 136, 0, 20)
+TextLabel_7.Font = Enum.Font.Fantasy
+TextLabel_7.Text = "view player"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 20.000
+TextLabel_7.TextWrapped = true
+
+tp.Name = "tp"
+tp.Parent = ScrollingFrame
+tp.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+tp.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tp.BorderSizePixel = 0
+tp.Position = UDim2.new(0.548015177, 0, 0.516614497, 0)
+tp.Size = UDim2.new(0, 143, 0, 56)
+
+UsernameBox_4.Name = "UsernameBox"
+UsernameBox_4.Parent = tp
+UsernameBox_4.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+UsernameBox_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UsernameBox_4.BorderSizePixel = 0
+UsernameBox_4.Position = UDim2.new(0.0699300691, 0, 0, 0)
+UsernameBox_4.Size = UDim2.new(0, 123, 0, 25)
+UsernameBox_4.Font = Enum.Font.Unknown
+UsernameBox_4.PlaceholderText = "Username input"
+UsernameBox_4.Text = ""
+UsernameBox_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+UsernameBox_4.TextSize = 14.000
+
+TeleportButton.Name = "TeleportButton"
+TeleportButton.Parent = tp
+TeleportButton.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+TeleportButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TeleportButton.BorderSizePixel = 0
+TeleportButton.Position = UDim2.new(0.0699300691, 0, 0.553571403, 0)
+TeleportButton.Size = UDim2.new(0, 123, 0, 25)
+TeleportButton.Font = Enum.Font.Unknown
+TeleportButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TeleportButton.TextSize = 14.000
+
+UICorner_27.Parent = tp
+
+TextLabel_8.Parent = tp
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0.164627612, 0, -0.279271811, 0)
+TextLabel_8.Size = UDim2.new(0, 98, 0, 15)
+TextLabel_8.Font = Enum.Font.Fantasy
+TextLabel_8.Text = "Teleport"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 20.000
+
+TextLabel_9.Parent = ScrollingFrame
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.LayoutOrder = 2
+TextLabel_9.Position = UDim2.new(0.0839971527, 0, 0.5777753, 0)
+TextLabel_9.Size = UDim2.new(0, 62, 0, 23)
+TextLabel_9.Font = Enum.Font.Unknown
+TextLabel_9.Text = "Verison: v0.5.0 "
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 85, 255)
+TextLabel_9.TextSize = 15.000
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+TextButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextButton.Position = UDim2.new(0.80560118, 0, 0.00495732529, 0)
+TextButton.Size = UDim2.new(0, 59, 0, 27)
+TextButton.Font = Enum.Font.GothamBlack
+TextButton.Text = "KILL SWITCH"
+TextButton.TextColor3 = Color3.fromRGB(255, 25, 25)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+UICorner_28.Parent = TextButton
+
+-- Scripts:
+
+local function PKRH_fake_script() -- Frame.Drag script 
+	local script = Instance.new('LocalScript', Frame)
+
+	--Credits go to whoever made this script.
+	--put this into frame of your GUI
+	
+	local UIS = game:GetService("UserInputService")
+	function drag (Frame)
+		dragToggle = nil
+		dragSpeed = 0.23 --change drag speed here (up to 1 down to 0)
+		dragInput = nil
+		dragStart = nil
+		dragPos = nil
+		function updateInput(input)
+			Delta = input.Position - dragStart
+			Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+			game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+		end
+		Frame.InputBegan:Connect(function(input)
+			if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+				dragToggle = true
+				dragStart = input.Position
+				startPos = Frame.Position
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragToggle = false
+					end
+				end)
+			end
+		end)
+		Frame.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				dragInput = input
+			end
+		end)
+		game:GetService("UserInputService").InputChanged:Connect(function(input)
+			if input == dragInput and dragToggle then
+				updateInput(input)
+			end
+		end)
+	end
+	drag(script.Parent)
+	
+end
+coroutine.wrap(PKRH_fake_script)()
+local function BLZW_fake_script() -- GrabShotgun.Script 
+	local script = Instance.new('Script', GrabShotgun)
+
+	function Click()
+		local Players = game:GetService("Players")
+	
+		local player = Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local root = character:WaitForChild("HumanoidRootPart")
+	
+		-- Save original position
+		local originalCFrame = root.CFrame
+	
+		-- Teleport somewhere
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(817.310364, 99.9766693, 2231.56714, 0.930796981, -5.6149613e-08, 0.365536541, 3.30162528e-08, 1, 6.95366396e-08, -0.365536541, -5.26558495e-08, 0.930796981)
+		wait(0.2)
+		local args = {
+			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("Remington 870"):WaitForChild("Meshes/r870_2")
+		}
+		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
+	
+	
+	
+		-- Wait 3 seconds
+		task.wait(0.1)
+	
+		-- Return to original position
+		root.CFrame = originalCFrame
+		
+		end
+	script.Parent.MouseButton1Down:connect(Click)
+	
+end
+coroutine.wrap(BLZW_fake_script)()
+local function IZDGBVT_fake_script() -- GrabMP5.Script 
+	local script = Instance.new('Script', GrabMP5)
+
+	function Click()
+		local Players = game:GetService("Players")
+	
+		local player = Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local root = character:WaitForChild("HumanoidRootPart")
+	
+		-- Save original position
+		local originalCFrame = root.CFrame
+	
+		-- Teleport somewhere
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(817.310364, 99.9766693, 2231.56714, 0.930796981, -5.6149613e-08, 0.365536541, 3.30162528e-08, 1, 6.95366396e-08, -0.365536541, -5.26558495e-08, 0.930796981)
+		wait(0.2)
+		local args = {
+			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("MP5"):WaitForChild("Meshes/MP5 (2)")
+		}
+		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
+	
+		task.wait(0)
+	
+		-- Return to original position
+		root.CFrame = originalCFrame
+	end
+	
+	script.Parent.MouseButton1Down:connect(Click)
+	
+end
+coroutine.wrap(IZDGBVT_fake_script)()
+local function QWTLX_fake_script() -- Grabm4a1.Script 
+	local script = Instance.new('Script', Grabm4a1)
+
+	function Click()
+		local Players = game:GetService("Players")
+	
+		local player = Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local root = character:WaitForChild("HumanoidRootPart")
+	
+		-- Save original position
+		local originalCFrame = root.CFrame
+	
+		-- Teleport somewhere
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(848.707336, 99.9766693, 2237.79077, -0.918655336, 1.01541497e-09, -0.395059973, 3.0522378e-09, 1, -4.52726123e-09, 0.395059973, -5.36480949e-09, -0.918655336)
+		wait(0.2)
+		local args = {
+			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("M4A1"):WaitForChild("Mesh")
+		}
+		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
+		task.wait(0)
+	
+		-- Return to original position
+		root.CFrame = originalCFrame
+	end
+	
+	script.Parent.MouseButton1Down:connect(Click)
+	
+end
+coroutine.wrap(QWTLX_fake_script)()
+local function SBTL_fake_script() -- Swatload.Script 
+	local script = Instance.new('Script', Swatload)
+
+	function Click()
+		local Players = game:GetService("Players")
+	
+		local player = Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local root = character:WaitForChild("HumanoidRootPart")
+	
+		-- Save original position
+		local originalCFrame = root.CFrame
+	
+		-- Teleport somewhere
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(848.707336, 99.9766693, 2237.79077, -0.918655336, 1.01541497e-09, -0.395059973, 3.0522378e-09, 1, -4.52726123e-09, 0.395059973, -5.36480949e-09, -0.918655336)
+		wait(0.2)
+		local args = {
+			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("M4A1"):WaitForChild("Mesh")
+		}
+		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
+	
+		local args = {
+			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("clothes"):WaitForChild("Riot Police"):WaitForChild("Torso")
+		}
+		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
+	
+		local args = {
+			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("Riot Shield"):WaitForChild("ITEMPICKUP")
+		}
+		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
+	
+		task.wait(0)
+	
+		-- Return to original position
+		root.CFrame = originalCFrame
+	end
+	
+	script.Parent.MouseButton1Down:connect(Click)
+	
+end
+coroutine.wrap(SBTL_fake_script)()
+local function PTOQRF_fake_script() -- GuardSnip.Script 
+	local script = Instance.new('Script', GuardSnip)
+
+	function Click()
+		local Players = game:GetService("Players")
+	
+		local player = Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local root = character:WaitForChild("HumanoidRootPart")
+	
+		-- Save original position
+		local originalCFrame = root.CFrame
+	
+		-- Teleport somewhere
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(831.694397, 99.9766693, 2231.59888, 0.999390781, 0, 0.0349008366, 0, 1, 0, -0.0349008366, 0, 0.999390781)
+			wait(0.2)
+			local args = {
+				workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("M700"):WaitForChild("model2")
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
+	
+			local args = {
+				workspace:WaitForChild("Prison_ITEMS"):WaitForChild("clothes"):WaitForChild("Light Vest"):WaitForChild("Torso")
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
+	
+			local args = {
+				workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("Revolver"):WaitForChild("Meshes/revolver (3)")
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
+	
+			task.wait(0)
+	
+			-- Return to original position
+			root.CFrame = originalCFrame
+		end
+	
+		script.Parent.MouseButton1Down:connect(Click)
+	
+end
+coroutine.wrap(PTOQRF_fake_script)()
+local function XEHTGYD_fake_script() -- Grabsniper.Script 
+	local script = Instance.new('Script', Grabsniper)
+
+	function Click()
+		local Players = game:GetService("Players")
+	
+		local player = Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local root = character:WaitForChild("HumanoidRootPart")
+	
+		-- Save original position
+		local originalCFrame = root.CFrame
+	
+		-- Teleport somewhere
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(831.694397, 99.9766693, 2231.59888, 0.999390781, 0, 0.0349008366, 0, 1, 0, -0.0349008366, 0, 0.999390781)
+		wait(0.2)
+		local args = {
+			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("M700"):WaitForChild("model2")
+		}
+		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
+		
+		task.wait(0)
+	
+		-- Return to original position
+		root.CFrame = originalCFrame
+	end
+	
+	script.Parent.MouseButton1Down:connect(Click)
+	
+end
+coroutine.wrap(XEHTGYD_fake_script)()
+local function WDQS_fake_script() -- CriminalSniper.Script 
+	local script = Instance.new('Script', CriminalSniper)
+
+	function Click()
+		local Players = game:GetService("Players")
+	
+		local player = Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local root = character:WaitForChild("HumanoidRootPart")
+	
+		-- Save original position
+		local originalCFrame = root.CFrame
+	
+		-- Teleport somewhere
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-915.249146, 94.1288681, 2040.94434, 0.996917188, 0, 0.0784611255, 0, 1, 0, -0.0784611255, 0, 0.996917188
+			)
+			wait(0.2)
+			local args = {
+				workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("M700"):WaitForChild("model2")
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
+	
+			local args = {
+				workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("Revolver"):WaitForChild("Meshes/revolver (3)")
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
+			wait(0.2)
+			local args = {
+				workspace:WaitForChild("Prison_ITEMS"):WaitForChild("clothes"):WaitForChild("Light Vest"):WaitForChild("Torso")
+			}
+			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
+	
+			task.wait(0)
+	
+			-- Return to original position
+			root.CFrame = originalCFrame
+		end
+	
+		script.Parent.MouseButton1Down:connect(Click)
+	
+end
+coroutine.wrap(WDQS_fake_script)()
+local function FCTYYI_fake_script() -- GrabAK.Script 
+	local script = Instance.new('Script', GrabAK)
+
+	function Click()
+		local Players = game:GetService("Players")
+	
+		local player = Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local root = character:WaitForChild("HumanoidRootPart")
+	
+		-- Save original position
+		local originalCFrame = root.CFrame
+	
+		-- Teleport somewhere
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-935.870117, 96.9283524, 2034.56262, 0.999991179, 4.48790693e-08, 0.00419658748, -4.44985098e-08, 1, -9.07763322e-08, -0.00419658748, 9.05887916e-08, 0.999991179)
+		wait(0.2)
+		local args = {
+			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("AK-47"):WaitForChild("Meshes/AK47_7")
+		}
+		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
+	wait(0.2)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(817.310364, 99.9766693, 2231.56714, 0.930796981, -5.6149613e-08, 0.365536541, 3.30162528e-08, 1, 6.95366396e-08, -0.365536541, -5.26558495e-08, 0.930796981)
+		wait(0.2)
+		local args = {
+			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("Remington 870"):WaitForChild("Meshes/r870_2")
+		}
+		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
+	
+		task.wait(0)
+	
+		-- Return to original position
+		root.CFrame = originalCFrame
+	end
+	
+	script.Parent.MouseButton1Down:connect(Click)
+	
+end
+coroutine.wrap(FCTYYI_fake_script)()
+local function VWBXM_fake_script() -- GrabFAL.Script 
+	local script = Instance.new('Script', GrabFAL)
+
+	function Click()
+		local Players = game:GetService("Players")
+	
+		local player = Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local root = character:WaitForChild("HumanoidRootPart")
+	
+		-- Save original position
+		local originalCFrame = root.CFrame
+	
+		-- Teleport somewhere
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-903.286255, 94.1288681, 2051.62622, 0.382686585, -5.03338917e-08, -0.923878193, -1.66231082e-08, 1, -6.136667e-08, 0.923878193, 3.88419288e-08, 0.382686585)
+		wait(0.2)
+		local args = {
+			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("FAL"):WaitForChild("Part")
+		}
+		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
+	
+		task.wait(0)
+	
+		-- Return to original position
+		root.CFrame = originalCFrame
+	end
+	
+	script.Parent.MouseButton1Down:connect(Click)
+	
+end
+coroutine.wrap(VWBXM_fake_script)()
+local function KHYNSJ_fake_script() -- Mafia.Script 
+	local script = Instance.new('Script', Mafia)
+
+	function Click()
+		local Players = game:GetService("Players")
+	
+		local player = Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local root = character:WaitForChild("HumanoidRootPart")
+	
+		-- Save original position
+		local originalCFrame = root.CFrame
+	
+		-- Teleport somewhere
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-903.286255, 94.1288681, 2051.62622, 0.382686585, -5.03338917e-08, -0.923878193, -1.66231082e-08, 1, -6.136667e-08, 0.923878193, 3.88419288e-08, 0.382686585)
+		wait(0.2)
+		local args = {
+			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("FAL"):WaitForChild("Part")
+		}
+		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
+	
+		local args = {
+			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("clothes"):WaitForChild("Mafia"):WaitForChild("Meshes/vest (7)")
+		}
+		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
+	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-938.750061, 94.3683929, 2038.94519, 0.795897424, 4.48884379e-08, 0.605431437, 1.91046361e-08, 1, -9.9257754e-08, -0.605431437, 9.05655426e-08, 0.795897424)
+		wait(0.2)
+		local args = {
+			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("Remington 870"):WaitForChild("Meshes/r870_2")
+		}
+		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
+		wait(0.2)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-903.286255, 94.1288681, 2051.62622, 0.382686585, -5.03338917e-08, -0.923878193, -1.66231082e-08, 1, -6.136667e-08, 0.923878193, 3.88419288e-08, 0.382686585)
+		wait(0.2)
+		local args = {
+			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("C4 Explosive"):WaitForChild("Handle")
+		}
+		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
+	
+		task.wait(0)
+	
+		-- Return to original position
+		root.CFrame = originalCFrame
+	end
+	
+	script.Parent.MouseButton1Down:connect(Click)
+	
+end
+coroutine.wrap(KHYNSJ_fake_script)()
+local function VMQMC_fake_script() -- AKREM.Script 
+	local script = Instance.new('Script', AKREM)
+
+	function Click()
+		local Players = game:GetService("Players")
+	
+		local player = Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local root = character:WaitForChild("HumanoidRootPart")
+	
+		-- Save original position
+		local originalCFrame = root.CFrame
+	
+		-- Teleport somewhere
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-935.870117, 96.9283524, 2034.56262, 0.999991179, 4.48790693e-08, 0.00419658748, -4.44985098e-08, 1, -9.07763322e-08, -0.00419658748, 9.05887916e-08, 0.999991179)
+		wait(0.2)
+		local args = {
+			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("AK-47"):WaitForChild("Meshes/AK47_7")
+		}
+		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
+	
+	
+		task.wait(0)
+	
+		-- Return to original position
+		root.CFrame = originalCFrame
+	end
+	
+	script.Parent.MouseButton1Down:connect(Click)
+	
+end
+coroutine.wrap(VMQMC_fake_script)()
+local function AHWFRE_fake_script() -- MP5REM.Script 
+	local script = Instance.new('Script', MP5REM)
+
+	function Click()
+		local Players = game:GetService("Players")
+	
+		local player = Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local root = character:WaitForChild("HumanoidRootPart")
+	
+		-- Save original position
+		local originalCFrame = root.CFrame
+	
+		-- Teleport somewhere
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(817.310364, 99.9766693, 2231.56714, 0.930796981, -5.6149613e-08, 0.365536541, 3.30162528e-08, 1, 6.95366396e-08, -0.365536541, -5.26558495e-08, 0.930796981)
+		wait(0.2)
+		local args = {
+			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("MP5"):WaitForChild("Meshes/MP5 (2)")
+		}
+		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
+		
+		local args = {
+			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("Remington 870"):WaitForChild("Meshes/r870_2")
+		}
+		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
+	
+		task.wait(0)
+	
+		-- Return to original position
+		root.CFrame = originalCFrame
+	end
+	
+	script.Parent.MouseButton1Down:connect(Click)
+	
+end
+coroutine.wrap(AHWFRE_fake_script)()
+local function BLHV_fake_script() -- M4REm.Script 
+	local script = Instance.new('Script', M4REm)
+
+	function Click()
+		local Players = game:GetService("Players")
+	
+		local player = Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local root = character:WaitForChild("HumanoidRootPart")
+	
+		-- Save original position
+		local originalCFrame = root.CFrame
+	
+		-- Teleport somewhere
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(848.707336, 99.9766693, 2237.79077, -0.918655336, 1.01541497e-09, -0.395059973, 3.0522378e-09, 1, -4.52726123e-09, 0.395059973, -5.36480949e-09, -0.918655336)
+		wait(0.2)
+		local args = {
+			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("M4A1"):WaitForChild("Mesh")
+		}
+		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
+		wait(0.1)
+		local args = {
+			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("Remington 870"):WaitForChild("Meshes/r870_2")
+		}
+		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
+	
+		task.wait(0)
+	
+		-- Return to original position
+		root.CFrame = originalCFrame
+	end
+	
+	script.Parent.MouseButton1Down:connect(Click)
+	
+end
+coroutine.wrap(BLHV_fake_script)()
+local function JCZBFQT_fake_script() -- freecam.GuiClick_Script 
+	local script = Instance.new('LocalScript', freecam)
+
+	function OnClicked() 
+		------------------------------------------------------------------------
+		-- Freecam
+		-- Cinematic free camera for spectating and video production.
+		------------------------------------------------------------------------
+	
+		local pi    = math.pi
+		local abs   = math.abs
+		local clamp = math.clamp
+		local exp   = math.exp
+		local rad   = math.rad
+		local sign  = math.sign
+		local sqrt  = math.sqrt
+		local tan   = math.tan
+	
+		local ContextActionService = game:GetService("ContextActionService")
+		local Players = game:GetService("Players")
+		local RunService = game:GetService("RunService")
+		local StarterGui = game:GetService("StarterGui")
+		local UserInputService = game:GetService("UserInputService")
+		local Workspace = game:GetService("Workspace")
+	
+		local LocalPlayer = Players.LocalPlayer
+		if not LocalPlayer then
+			Players:GetPropertyChangedSignal("LocalPlayer"):Wait()
+			LocalPlayer = Players.LocalPlayer
+		end
+	
+		local Camera = Workspace.CurrentCamera
+		Workspace:GetPropertyChangedSignal("CurrentCamera"):Connect(function()
+			local newCamera = Workspace.CurrentCamera
+			if newCamera then
+				Camera = newCamera
+			end
+		end)
+	
+		------------------------------------------------------------------------
+	
+		local TOGGLE_INPUT_PRIORITY = Enum.ContextActionPriority.Low.Value
+		local INPUT_PRIORITY = Enum.ContextActionPriority.High.Value
+		local FREECAM_MACRO_KB = {Enum.KeyCode.LeftShift, Enum.KeyCode.P}
+	
+		local NAV_GAIN = Vector3.new(1, 1, 1)*64
+		local PAN_GAIN = Vector2.new(0.75, 1)*8
+		local FOV_GAIN = 300
+	
+		local PITCH_LIMIT = rad(90)
+	
+		local VEL_STIFFNESS = 1.5
+		local PAN_STIFFNESS = 1.0
+		local FOV_STIFFNESS = 4.0
+	
+		------------------------------------------------------------------------
+	
+		local Spring = {} do
+			Spring.__index = Spring
+	
+			function Spring.new(freq, pos)
+				local self = setmetatable({}, Spring)
+				self.f = freq
+				self.p = pos
+				self.v = pos*0
+				return self
+			end
+	
+			function Spring:Update(dt, goal)
+				local f = self.f*2*pi
+				local p0 = self.p
+				local v0 = self.v
+	
+				local offset = goal - p0
+				local decay = exp(-f*dt)
+	
+				local p1 = goal + (v0*dt - offset*(f*dt + 1))*decay
+				local v1 = (f*dt*(offset*f - v0) + v0)*decay
+	
+				self.p = p1
+				self.v = v1
+	
+				return p1
+			end
+	
+			function Spring:Reset(pos)
+				self.p = pos
+				self.v = pos*0
+			end
+		end
+	
+		------------------------------------------------------------------------
+	
+		local cameraPos = Vector3.new()
+		local cameraRot = Vector2.new()
+		local cameraFov = 0
+	
+		local velSpring = Spring.new(VEL_STIFFNESS, Vector3.new())
+		local panSpring = Spring.new(PAN_STIFFNESS, Vector2.new())
+		local fovSpring = Spring.new(FOV_STIFFNESS, 0)
+	
+		------------------------------------------------------------------------
+	
+		local Input = {} do
+			local thumbstickCurve do
+				local K_CURVATURE = 2.0
+				local K_DEADZONE = 0.15
+	
+				local function fCurve(x)
+					return (exp(K_CURVATURE*x) - 1)/(exp(K_CURVATURE) - 1)
+				end
+	
+				local function fDeadzone(x)
+					return fCurve((x - K_DEADZONE)/(1 - K_DEADZONE))
+				end
+	
+				function thumbstickCurve(x)
+					return sign(x)*clamp(fDeadzone(abs(x)), 0, 1)
+				end
+			end
+	
+			local gamepad = {
+				ButtonX = 0,
+				ButtonY = 0,
+				DPadDown = 0,
+				DPadUp = 0,
+				ButtonL2 = 0,
+				ButtonR2 = 0,
+				Thumbstick1 = Vector2.new(),
+				Thumbstick2 = Vector2.new(),
+			}
+	
+			local keyboard = {
+				W = 0,
+				A = 0,
+				S = 0,
+				D = 0,
+				E = 0,
+				Q = 0,
+				U = 0,
+				H = 0,
+				J = 0,
+				K = 0,
+				I = 0,
+				Y = 0,
+				Up = 0,
+				Down = 0,
+				LeftShift = 0,
+				RightShift = 0,
+			}
+	
+			local mouse = {
+				Delta = Vector2.new(),
+				MouseWheel = 0,
+			}
+	
+			local NAV_GAMEPAD_SPEED  = Vector3.new(1, 1, 1)
+			local NAV_KEYBOARD_SPEED = Vector3.new(1, 1, 1)
+			local PAN_MOUSE_SPEED    = Vector2.new(1, 1)*(pi/64)
+			local PAN_GAMEPAD_SPEED  = Vector2.new(1, 1)*(pi/8)
+			local FOV_WHEEL_SPEED    = 1.0
+			local FOV_GAMEPAD_SPEED  = 0.25
+			local NAV_ADJ_SPEED      = 0.75
+			local NAV_SHIFT_MUL      = 0.25
+	
+			local navSpeed = 1
+	
+			function Input.Vel(dt)
+				navSpeed = clamp(navSpeed + dt*(keyboard.Up - keyboard.Down)*NAV_ADJ_SPEED, 0.01, 4)
+	
+				local kGamepad = Vector3.new(
+					thumbstickCurve(gamepad.Thumbstick1.x),
+					thumbstickCurve(gamepad.ButtonR2) - thumbstickCurve(gamepad.ButtonL2),
+					thumbstickCurve(-gamepad.Thumbstick1.y)
+				)*NAV_GAMEPAD_SPEED
+	
+				local kKeyboard = Vector3.new(
+					keyboard.D - keyboard.A + keyboard.K - keyboard.H,
+					keyboard.E - keyboard.Q + keyboard.I - keyboard.Y,
+					keyboard.S - keyboard.W + keyboard.J - keyboard.U
+				)*NAV_KEYBOARD_SPEED
+	
+				local shift = UserInputService:IsKeyDown(Enum.KeyCode.LeftShift) or UserInputService:IsKeyDown(Enum.KeyCode.RightShift)
+	
+				return (kGamepad + kKeyboard)*(navSpeed*(shift and NAV_SHIFT_MUL or 1))
+			end
+	
+			function Input.Pan(dt)
+				local kGamepad = Vector2.new(
+					thumbstickCurve(gamepad.Thumbstick2.y),
+					thumbstickCurve(-gamepad.Thumbstick2.x)
+				)*PAN_GAMEPAD_SPEED
+				local kMouse = mouse.Delta*PAN_MOUSE_SPEED
+				mouse.Delta = Vector2.new()
+				return kGamepad + kMouse
+			end
+	
+			function Input.Fov(dt)
+				local kGamepad = (gamepad.ButtonX - gamepad.ButtonY)*FOV_GAMEPAD_SPEED
+				local kMouse = mouse.MouseWheel*FOV_WHEEL_SPEED
+				mouse.MouseWheel = 0
+				return kGamepad + kMouse
+			end
+	
+			do
+				local function Keypress(action, state, input)
+					keyboard[input.KeyCode.Name] = state == Enum.UserInputState.Begin and 1 or 0
+					return Enum.ContextActionResult.Sink
+				end
+	
+				local function GpButton(action, state, input)
+					gamepad[input.KeyCode.Name] = state == Enum.UserInputState.Begin and 1 or 0
+					return Enum.ContextActionResult.Sink
+				end
+	
+				local function MousePan(action, state, input)
+					local delta = input.Delta
+					mouse.Delta = Vector2.new(-delta.y, -delta.x)
+					return Enum.ContextActionResult.Sink
+				end
+	
+				local function Thumb(action, state, input)
+					gamepad[input.KeyCode.Name] = input.Position
+					return Enum.ContextActionResult.Sink
+				end
+	
+				local function Trigger(action, state, input)
+					gamepad[input.KeyCode.Name] = input.Position.z
+					return Enum.ContextActionResult.Sink
+				end
+	
+				local function MouseWheel(action, state, input)
+					mouse[input.UserInputType.Name] = -input.Position.z
+					return Enum.ContextActionResult.Sink
+				end
+	
+				local function Zero(t)
+					for k, v in pairs(t) do
+						t[k] = v*0
+					end
+				end
+	
+				function Input.StartCapture()
+					ContextActionService:BindActionAtPriority("FreecamKeyboard", Keypress, false, INPUT_PRIORITY,
+						Enum.KeyCode.W, Enum.KeyCode.U,
+						Enum.KeyCode.A, Enum.KeyCode.H,
+						Enum.KeyCode.S, Enum.KeyCode.J,
+						Enum.KeyCode.D, Enum.KeyCode.K,
+						Enum.KeyCode.E, Enum.KeyCode.I,
+						Enum.KeyCode.Q, Enum.KeyCode.Y,
+						Enum.KeyCode.Up, Enum.KeyCode.Down
+					)
+					ContextActionService:BindActionAtPriority("FreecamMousePan",          MousePan,   false, INPUT_PRIORITY, Enum.UserInputType.MouseMovement)
+					ContextActionService:BindActionAtPriority("FreecamMouseWheel",        MouseWheel, false, INPUT_PRIORITY, Enum.UserInputType.MouseWheel)
+					ContextActionService:BindActionAtPriority("FreecamGamepadButton",     GpButton,   false, INPUT_PRIORITY, Enum.KeyCode.ButtonX, Enum.KeyCode.ButtonY)
+					ContextActionService:BindActionAtPriority("FreecamGamepadTrigger",    Trigger,    false, INPUT_PRIORITY, Enum.KeyCode.ButtonR2, Enum.KeyCode.ButtonL2)
+					ContextActionService:BindActionAtPriority("FreecamGamepadThumbstick", Thumb,      false, INPUT_PRIORITY, Enum.KeyCode.Thumbstick1, Enum.KeyCode.Thumbstick2)
+				end
+	
+				function Input.StopCapture()
+					navSpeed = 1
+					Zero(gamepad)
+					Zero(keyboard)
+					Zero(mouse)
+					ContextActionService:UnbindAction("FreecamKeyboard")
+					ContextActionService:UnbindAction("FreecamMousePan")
+					ContextActionService:UnbindAction("FreecamMouseWheel")
+					ContextActionService:UnbindAction("FreecamGamepadButton")
+					ContextActionService:UnbindAction("FreecamGamepadTrigger")
+					ContextActionService:UnbindAction("FreecamGamepadThumbstick")
+				end
+			end
+		end
+	
+		local function GetFocusDistance(cameraFrame)
+			local znear = 0.1
+			local viewport = Camera.ViewportSize
+			local projy = 2*tan(cameraFov/2)
+			local projx = viewport.x/viewport.y*projy
+			local fx = cameraFrame.rightVector
+			local fy = cameraFrame.upVector
+			local fz = cameraFrame.lookVector
+	
+			local minVect = Vector3.new()
+			local minDist = 512
+	
+			for x = 0, 1, 0.5 do
+				for y = 0, 1, 0.5 do
+					local cx = (x - 0.5)*projx
+					local cy = (y - 0.5)*projy
+					local offset = fx*cx - fy*cy + fz
+					local origin = cameraFrame.p + offset*znear
+					local _, hit = Workspace:FindPartOnRay(Ray.new(origin, offset.unit*minDist))
+					local dist = (hit - origin).magnitude
+					if minDist > dist then
+						minDist = dist
+						minVect = offset.unit
+					end
+				end
+			end
+	
+			return fz:Dot(minVect)*minDist
+		end
+	
+		------------------------------------------------------------------------
+	
+		local function StepFreecam(dt)
+			local vel = velSpring:Update(dt, Input.Vel(dt))
+			local pan = panSpring:Update(dt, Input.Pan(dt))
+			local fov = fovSpring:Update(dt, Input.Fov(dt))
+	
+			local zoomFactor = sqrt(tan(rad(70/2))/tan(rad(cameraFov/2)))
+	
+			cameraFov = clamp(cameraFov + fov*FOV_GAIN*(dt/zoomFactor), 1, 120)
+			cameraRot = cameraRot + pan*PAN_GAIN*(dt/zoomFactor)
+			cameraRot = Vector2.new(clamp(cameraRot.x, -PITCH_LIMIT, PITCH_LIMIT), cameraRot.y%(2*pi))
+	
+			local cameraCFrame = CFrame.new(cameraPos)*CFrame.fromOrientation(cameraRot.x, cameraRot.y, 0)*CFrame.new(vel*NAV_GAIN*dt)
+			cameraPos = cameraCFrame.p
+	
+			Camera.CFrame = cameraCFrame
+			Camera.Focus = cameraCFrame*CFrame.new(0, 0, -GetFocusDistance(cameraCFrame))
+			Camera.FieldOfView = cameraFov
+		end
+	
+		------------------------------------------------------------------------
+	
+		local PlayerState = {} do
+			local mouseBehavior
+			local mouseIconEnabled
+			local cameraType
+			local cameraFocus
+			local cameraCFrame
+			local cameraFieldOfView
+			local screenGuis = {}
+			local coreGuis = {
+				Backpack = true,
+				Chat = true,
+				Health = true,
+				PlayerList = true,
+			}
+			local setCores = {
+				BadgesNotificationsActive = true,
+				PointsNotificationsActive = true,
+			}
+	
+			-- Save state and set up for freecam
+			function PlayerState.Push()
+				for name in pairs(coreGuis) do
+					coreGuis[name] = StarterGui:GetCoreGuiEnabled(Enum.CoreGuiType[name])
+					StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType[name], false)
+				end
+				for name in pairs(setCores) do
+					setCores[name] = StarterGui:GetCore(name)
+					StarterGui:SetCore(name, false)
+				end
+				local playergui = LocalPlayer:FindFirstChildOfClass("PlayerGui")
+				if playergui then
+					for _, gui in pairs(playergui:GetChildren()) do
+						if gui:IsA("ScreenGui") and gui.Enabled then
+							screenGuis[#screenGuis + 1] = gui
+							gui.Enabled = false
+						end
+					end
+				end
+	
+				cameraFieldOfView = Camera.FieldOfView
+				Camera.FieldOfView = 70
+	
+				cameraType = Camera.CameraType
+				Camera.CameraType = Enum.CameraType.Custom
+	
+				cameraCFrame = Camera.CFrame
+				cameraFocus = Camera.Focus
+	
+				mouseIconEnabled = UserInputService.MouseIconEnabled
+				UserInputService.MouseIconEnabled = false
+	
+				mouseBehavior = UserInputService.MouseBehavior
+				UserInputService.MouseBehavior = Enum.MouseBehavior.Default
+			end
+	
+			-- Restore state
+			function PlayerState.Pop()
+				for name, isEnabled in pairs(coreGuis) do
+					StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType[name], isEnabled)
+				end
+				for name, isEnabled in pairs(setCores) do
+					StarterGui:SetCore(name, isEnabled)
+				end
+				for _, gui in pairs(screenGuis) do
+					if gui.Parent then
+						gui.Enabled = true
+					end
+				end
+	
+				Camera.FieldOfView = cameraFieldOfView
+				cameraFieldOfView = nil
+	
+				Camera.CameraType = cameraType
+				cameraType = nil
+	
+				Camera.CFrame = cameraCFrame
+				cameraCFrame = nil
+	
+				Camera.Focus = cameraFocus
+				cameraFocus = nil
+	
+				UserInputService.MouseIconEnabled = mouseIconEnabled
+				mouseIconEnabled = nil
+	
+				UserInputService.MouseBehavior = mouseBehavior
+				mouseBehavior = nil
+			end
+		end
+	
+		local function StartFreecam()
+			local cameraCFrame = Camera.CFrame
+			cameraRot = Vector2.new(cameraCFrame:toEulerAnglesYXZ())
+			cameraPos = cameraCFrame.p
+			cameraFov = Camera.FieldOfView
+	
+			velSpring:Reset(Vector3.new())
+			panSpring:Reset(Vector2.new())
+			fovSpring:Reset(0)
+	
+			PlayerState.Push()
+			RunService:BindToRenderStep("Freecam", Enum.RenderPriority.Camera.Value, StepFreecam)
+			Input.StartCapture()
+		end
+	
+		local function StopFreecam()
+			Input.StopCapture()
+			RunService:UnbindFromRenderStep("Freecam")
+			PlayerState.Pop()
+		end
+	
+		------------------------------------------------------------------------
+	
+		do
+			local enabled = false
+	
+			local function ToggleFreecam()
+				if enabled then
+					StopFreecam()
+				else
+					StartFreecam()
+				end
+				enabled = not enabled
+			end
+	
+			local function CheckMacro(macro)
+				for i = 1, #macro - 1 do
+					if not UserInputService:IsKeyDown(macro[i]) then
+						return
+					end
+				end
+				ToggleFreecam()
+			end
+	
+			local function HandleActivationInput(action, state, input)
+				if state == Enum.UserInputState.Begin then
+					if input.KeyCode == FREECAM_MACRO_KB[#FREECAM_MACRO_KB] then
+						CheckMacro(FREECAM_MACRO_KB)
+					end
+				end
+				return Enum.ContextActionResult.Pass
+			end
+	
+			ContextActionService:BindActionAtPriority("FreecamToggle", HandleActivationInput, false, TOGGLE_INPUT_PRIORITY, FREECAM_MACRO_KB[#FREECAM_MACRO_KB])
+		end
+	end 
+	
+	script.Parent.MouseButton1Down:connect(OnClicked)
+end
+coroutine.wrap(JCZBFQT_fake_script)()
+local function VPYHYVY_fake_script() -- fly.LocalScript 
+	local script = Instance.new('LocalScript', fly)
+
+	local Players = game:GetService("Players")
+	local UserInputService = game:GetService("UserInputService")
+	local RunService = game:GetService("RunService")
+	
+	local player = Players.LocalPlayer
+	local button = script.Parent
+	
+	local flying = false
+	local speed = 60
+	
+	local bodyVelocity
+	local bodyGyro
+	local flyConnection
+	
+	local function stopFlying()
+		flying = false
+	
+		if flyConnection then
+			flyConnection:Disconnect()
+			flyConnection = nil
+		end
+	
+		if bodyVelocity then
+			bodyVelocity:Destroy()
+			bodyVelocity = nil
+		end
+	
+		if bodyGyro then
+			bodyGyro:Destroy()
+			bodyGyro = nil
+		end
+	
+		button.Text = "FLY: OFF"
+	end
+	
+	local function startFlying()
+		if flying then return end
+	
+		local character = player.Character
+		if not character then return end
+	
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
+		local root = character:FindFirstChild("HumanoidRootPart")
+	
+		if not humanoid or not root then return end
+	
+		flying = true
+		button.Text = "FLY: ON"
+	
+		bodyVelocity = Instance.new("BodyVelocity")
+		bodyVelocity.MaxForce = Vector3.new(math.huge, math.huge, math.huge)
+		bodyVelocity.Velocity = Vector3.zero
+		bodyVelocity.Parent = root
+	
+		bodyGyro = Instance.new("BodyGyro")
+		bodyGyro.MaxTorque = Vector3.new(math.huge, math.huge, math.huge)
+		bodyGyro.P = 10000
+		bodyGyro.Parent = root
+	
+		flyConnection = RunService.RenderStepped:Connect(function()
+			if not flying or not character.Parent then
+				stopFlying()
+				return
+			end
+	
+			local camera = workspace.CurrentCamera
+			local moveDirection = Vector3.zero
+	
+			if UserInputService:IsKeyDown(Enum.KeyCode.W) then
+				moveDirection += camera.CFrame.LookVector
+			end
+	
+			if UserInputService:IsKeyDown(Enum.KeyCode.S) then
+				moveDirection -= camera.CFrame.LookVector
+			end
+	
+			if UserInputService:IsKeyDown(Enum.KeyCode.D) then
+				moveDirection += camera.CFrame.RightVector
+			end
+	
+			if UserInputService:IsKeyDown(Enum.KeyCode.A) then
+				moveDirection -= camera.CFrame.RightVector
+			end
+	
+			if UserInputService:IsKeyDown(Enum.KeyCode.Space) then
+				moveDirection += Vector3.new(0, 1, 0)
+			end
+	
+			if UserInputService:IsKeyDown(Enum.KeyCode.LeftControl) then
+				moveDirection -= Vector3.new(0, 1, 0)
+			end
+	
+			if moveDirection.Magnitude > 0 then
+				moveDirection = moveDirection.Unit * speed
+			end
+	
+			bodyVelocity.Velocity = moveDirection
+			bodyGyro.CFrame = camera.CFrame
+		end)
+	end
+	
+	local function toggleFly()
+		if flying then
+			stopFlying()
+		else
+			startFlying()
+		end
+	end
+	
+	-- Button
+	button.MouseButton1Click:Connect(toggleFly)
+	
+	-- F key
+	UserInputService.InputBegan:Connect(function(input, processed)
+		if processed then return end
+	
+		end)
+	
+	-- Stop flying when character dies
+	player.CharacterAdded:Connect(function()
+		stopFlying()
+	end)
+	
+	button.Text = "FLY: OFF"
+end
+coroutine.wrap(VPYHYVY_fake_script)()
+local function WBGEX_fake_script() -- aimlock.LocalScript 
+	local script = Instance.new('LocalScript', aimlock)
+
+	local Players = game:GetService("Players")
+	local UserInputService = game:GetService("UserInputService")
+	local RunService = game:GetService("RunService")
+	
+	local localPlayer = Players.LocalPlayer
+	local camera = workspace.CurrentCamera
+	local button = script.Parent
+	
+	local enabled = false
+	local lockedTarget = nil
+	
+	local maxDistance = 500
+	
+	local function isValidTarget(player)
+		if player == localPlayer then
+			return false
+		end
+	
+		-- Team check
+		if localPlayer.Team ~= nil and player.Team == localPlayer.Team then
+			return false
+		end
+	
+		local character = player.Character
+		if not character then
+			return false
+		end
+	
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
+		local root = character:FindFirstChild("HumanoidRootPart")
+	
+		if not humanoid or humanoid.Health <= 0 or not root then
+			return false
+		end
+	
+		return true
+	end
+	
+	local function getClosestEnemy()
+		local myCharacter = localPlayer.Character
+		local myRoot = myCharacter and myCharacter:FindFirstChild("HumanoidRootPart")
+	
+		if not myRoot then
+			return nil
+		end
+	
+		local closestPlayer = nil
+		local closestDistance = maxDistance
+	
+		for _, player in ipairs(Players:GetPlayers()) do
+			if isValidTarget(player) then
+				local root = player.Character:FindFirstChild("HumanoidRootPart")
+				local distance = (root.Position - myRoot.Position).Magnitude
+	
+				if distance < closestDistance then
+					closestDistance = distance
+					closestPlayer = player
+				end
+			end
+		end
+	
+		return closestPlayer
+	end
+	
+	local function stopAimlock()
+		enabled = false
+		lockedTarget = nil
+		button.Text = "AIMLOCK: OFF"
+	end
+	
+	local function toggleAimlock()
+		enabled = not enabled
+	
+		if enabled then
+			button.Text = "AIMLOCK: ON"
+		else
+			lockedTarget = nil
+			button.Text = "AIMLOCK: OFF"
+		end
+	end
+	
+	-- Button toggle
+	button.MouseButton1Click:Connect(function()
+		toggleAimlock()
+	end)
+	
+	-- Q key toggle
+	UserInputService.InputBegan:Connect(function(input, processed)
+		if processed then
+			return
+		end
+	
+	end)
+	
+	-- Camera locking
+	RunService.RenderStepped:Connect(function()
+		if not enabled then
+			return
+		end
+	
+		-- Find a new target if needed
+		if not lockedTarget or not isValidTarget(lockedTarget) then
+			lockedTarget = getClosestEnemy()
+		end
+	
+		if lockedTarget and lockedTarget.Character then
+			local targetPart = lockedTarget.Character:FindFirstChild("Head")
+	
+			if targetPart then
+				camera.CFrame = CFrame.lookAt(
+					camera.CFrame.Position,
+					targetPart.Position
+				)
+			end
+		end
+	end)
+	
+	button.Text = "AIMLOCK: OFF"
+end
+coroutine.wrap(WBGEX_fake_script)()
+local function TOAF_fake_script() -- clicktp.LocalScript 
+	local script = Instance.new('LocalScript', clicktp)
+
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	
+		-- Don't create another one if they already have it
+		if player.Backpack:FindFirstChild("Click TP") then
+			return
+		end
+	
+		if player.Character and player.Character:FindFirstChild("Click TP") then
+			return
+		end
+	
+		-- Create the tool
+		local tool = Instance.new("Tool")
+		tool.Name = "Click TP"
+		tool.RequiresHandle = false
+		tool.CanBeDropped = false
+		tool.ToolTip = "Click somewhere to teleport"
+	
+		-- Click-to-teleport
+		tool.Activated:Connect(function()
+			local mouse = player:GetMouse()
+	
+			if mouse and mouse.Hit then
+				local character = player.Character
+				if not character then return end
+	
+				local root = character:FindFirstChild("HumanoidRootPart")
+				if not root then return end
+	
+				root.CFrame = CFrame.new(
+					mouse.Hit.Position + Vector3.new(0, 3, 0)
+				)
+			end
+		end)
+	
+		-- Give the tool
+		tool.Parent = player.Backpack
+	end)
+end
+coroutine.wrap(TOAF_fake_script)()
+local function OXEJJPF_fake_script() -- FollowButton.LocalScript 
+	local script = Instance.new('LocalScript', FollowButton)
+
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	
+	local localPlayer = Players.LocalPlayer
+	local button = script.Parent
+	local usernameBox = button.Parent:WaitForChild("UsernameBox")
+	
+	local following = false
+	local targetPlayer = nil
+	local followConnection = nil
+	
+	local FOLLOW_DISTANCE = 4
+	
+	local function findPlayer(input)
+		input = input:gsub("^%s+", ""):gsub("%s+$", ""):lower()
+	
+		if input == "" then
+			return nil
+		end
+	
+		-- Exact username or display name
+		for _, player in ipairs(Players:GetPlayers()) do
+			if player.Name:lower() == input
+				or player.DisplayName:lower() == input then
+				return player
+			end
+		end
+	
+		-- Partial username/display name
+		for _, player in ipairs(Players:GetPlayers()) do
+			if player.Name:lower():sub(1, #input) == input
+				or player.DisplayName:lower():sub(1, #input) == input then
+				return player
+			end
+		end
+	
+		return nil
+	end
+	
+	local function stopFollowing()
+		following = false
+		targetPlayer = nil
+	
+		if followConnection then
+			followConnection:Disconnect()
+			followConnection = nil
+		end
+	
+		button.Text = "FOLLOW: OFF"
+	end
+	
+	local function startFollowing()
+		local target = findPlayer(usernameBox.Text)
+	
+		if not target then
+			button.Text = "PLAYER NOT FOUND"
+	
+			task.delay(1.5, function()
+				if not following then
+					button.Text = "FOLLOW: OFF"
+				end
+			end)
+	
+			return
+		end
+	
+		if target == localPlayer then
+			button.Text = "CANNOT FOLLOW YOURSELF"
+	
+			task.delay(1.5, function()
+				if not following then
+					button.Text = "FOLLOW: OFF"
+				end
+			end)
+	
+			return
+		end
+	
+		targetPlayer = target
+		following = true
+	
+		button.Text = "FOLLOW: ON"
+	
+		-- Teleport beside them immediately
+		local character = localPlayer.Character
+		local targetCharacter = target.Character
+	
+		if character and targetCharacter then
+			local root = character:FindFirstChild("HumanoidRootPart")
+			local targetRoot = targetCharacter:FindFirstChild("HumanoidRootPart")
+	
+			if root and targetRoot then
+				root.CFrame = targetRoot.CFrame * CFrame.new(0, 0, 4)
+			end
+		end
+	
+		followConnection = RunService.Heartbeat:Connect(function()
+			if not following or not targetPlayer then
+				return
+			end
+	
+			local character = localPlayer.Character
+			local targetCharacter = targetPlayer.Character
+	
+			if not character or not targetCharacter then
+				return
+			end
+	
+			local root = character:FindFirstChild("HumanoidRootPart")
+			local targetRoot = targetCharacter:FindFirstChild("HumanoidRootPart")
+	
+			if root and targetRoot then
+				local position =
+					targetRoot.Position - targetRoot.CFrame.LookVector * FOLLOW_DISTANCE
+	
+				root.CFrame = CFrame.lookAt(
+					position,
+					targetRoot.Position
+				)
+			end
+		end)
+	end
+	
+	button.Activated:Connect(function()
+		if following then
+			stopFollowing()
+		else
+			startFollowing()
+		end
+	end)
+	
+	Players.PlayerRemoving:Connect(function(player)
+		if player == targetPlayer then
+			stopFollowing()
+		end
+	end)
+	
+	button.Text = "FOLLOW: OFF"
+end
+coroutine.wrap(OXEJJPF_fake_script)()
+local function ZCGWB_fake_script() -- SpeedButton.LocalScript 
+	local script = Instance.new('LocalScript', SpeedButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local plr = game.Players.LocalPlayer
+	    local char = plr.Character
+	    local hum = char.Humanoid
+		hum.WalkSpeed = script.Parent.Parent.UsernameBox.Text
+	end)
+end
+coroutine.wrap(ZCGWB_fake_script)()
+local function UQKPM_fake_script() -- ViewButton.LocalScript 
+	local script = Instance.new('LocalScript', ViewButton)
+
+	local Players = game:GetService("Players")
+	
+	local localPlayer = Players.LocalPlayer
+	local button = script.Parent
+	local usernameBox = button.Parent:WaitForChild("UsernameBox")
+	
+	local camera = workspace.CurrentCamera
+	
+	local viewing = false
+	local targetPlayer = nil
+	
+	local function findPlayer(input)
+		input = input:gsub("^%s+", ""):gsub("%s+$", ""):lower()
+	
+		if input == "" then
+			return nil
+		end
+	
+		-- Exact username or display name
+		for _, player in ipairs(Players:GetPlayers()) do
+			if player.Name:lower() == input
+				or player.DisplayName:lower() == input then
+				return player
+			end
+		end
+	
+		-- Partial username/display name
+		for _, player in ipairs(Players:GetPlayers()) do
+			if player.Name:lower():sub(1, #input) == input
+				or player.DisplayName:lower():sub(1, #input) == input then
+				return player
+			end
+		end
+	
+		return nil
+	end
+	
+	local function stopViewing()
+		viewing = false
+		targetPlayer = nil
+	
+		local character = localPlayer.Character
+		if character then
+			local humanoid = character:FindFirstChildOfClass("Humanoid")
+	
+			if humanoid then
+				camera.CameraType = Enum.CameraType.Custom
+				camera.CameraSubject = humanoid
+			end
+		end
+	
+		button.Text = "VIEW: OFF"
+	end
+	
+	local function startViewing()
+		local target = findPlayer(usernameBox.Text)
+	
+		if not target then
+			button.Text = "PLAYER NOT FOUND"
+	
+			task.delay(1.5, function()
+				if not viewing then
+					button.Text = "VIEW: OFF"
+				end
+			end)
+	
+			return
+		end
+	
+		if target == localPlayer then
+			button.Text = "CANNOT VIEW YOURSELF"
+	
+			task.delay(1.5, function()
+				if not viewing then
+					button.Text = "VIEW: OFF"
+				end
+			end)
+	
+			return
+		end
+	
+		local character = target.Character
+		if not character then
+			button.Text = "NO CHARACTER"
+	
+			task.delay(1.5, function()
+				if not viewing then
+					button.Text = "VIEW: OFF"
+				end
+			end)
+	
+			return
+		end
+	
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
+	
+		if not humanoid then
+			button.Text = "NO HUMANOID"
+			return
+		end
+	
+		targetPlayer = target
+		viewing = true
+	
+		camera.CameraType = Enum.CameraType.Custom
+		camera.CameraSubject = humanoid
+	
+		button.Text = "VIEW: ON"
+	end
+	
+	button.Activated:Connect(function()
+		if viewing then
+			stopViewing()
+		else
+			startViewing()
+		end
+	end)
+	
+	-- If the target respawns, keep viewing them
+	Players.PlayerAdded:Connect(function(player)
+		player.CharacterAdded:Connect(function(character)
+			if player == targetPlayer and viewing then
+				local humanoid = character:WaitForChild("Humanoid", 5)
+	
+				if humanoid and viewing then
+					camera.CameraType = Enum.CameraType.Custom
+					camera.CameraSubject = humanoid
+				end
+			end
+		end)
+	end)
+	
+	-- Handle players already in the server
+	for _, player in ipairs(Players:GetPlayers()) do
+		player.CharacterAdded:Connect(function(character)
+			if player == targetPlayer and viewing then
+				local humanoid = character:WaitForChild("Humanoid", 5)
+	
+				if humanoid and viewing then
+					camera.CameraType = Enum.CameraType.Custom
+					camera.CameraSubject = humanoid
+				end
+			end
+		end)
+	end
+	
+	Players.PlayerRemoving:Connect(function(player)
+		if player == targetPlayer then
+			stopViewing()
+		end
+	end)
+	
+	localPlayer.CharacterAdded:Connect(function(character)
+		if not viewing then
+			local humanoid = character:WaitForChild("Humanoid", 5)
+	
+			if humanoid then
+				camera.CameraType = Enum.CameraType.Custom
+				camera.CameraSubject = humanoid
+			end
+		end
+	end)
+	
+	button.Text = "VIEW: OFF"
+end
+coroutine.wrap(UQKPM_fake_script)()
+local function COPO_fake_script() -- TeleportButton.LocalScript 
+	local script = Instance.new('LocalScript', TeleportButton)
+
+	local Players = game:GetService("Players")
+	
+	local localPlayer = Players.LocalPlayer
+	local button = script.Parent
+	local usernameBox = button.Parent:WaitForChild("UsernameBox")
+	
+	local enabled = false
+	
+	local function findPlayer(input)
+		input = input:gsub("^%s+", ""):gsub("%s+$", ""):lower()
+	
+		if input == "" then
+			return nil
+		end
+	
+		-- Exact username or display name
+		for _, player in ipairs(Players:GetPlayers()) do
+			if player.Name:lower() == input
+				or player.DisplayName:lower() == input then
+				return player
+			end
+		end
+	
+		-- Partial username/display name
+		for _, player in ipairs(Players:GetPlayers()) do
+			if player.Name:lower():sub(1, #input) == input
+				or player.DisplayName:lower():sub(1, #input) == input then
+				return player
+			end
+		end
+	
+		return nil
+	end
+	
+	local function teleportToPlayer()
+		if not enabled then
+			return
+		end
+	
+		local target = findPlayer(usernameBox.Text)
+	
+		if not target then
+			button.Text = "PLAYER NOT FOUND"
+	
+			task.delay(1.5, function()
+				if enabled then
+					button.Text = "TELEPORT: ON"
+				else
+					button.Text = "TELEPORT: OFF"
+				end
+			end)
+	
+			return
+		end
+	
+		if target == localPlayer then
+			button.Text = "CANNOT TELEPORT TO YOURSELF"
+			task.delay(1.5, function()
+				button.Text = enabled and "TELEPORT: ON" or "TELEPORT: OFF"
+			end)
+			return
+		end
+	
+		local myCharacter = localPlayer.Character
+		local targetCharacter = target.Character
+	
+		if not myCharacter or not targetCharacter then
+			return
+		end
+	
+		local myRoot = myCharacter:FindFirstChild("HumanoidRootPart")
+		local targetRoot = targetCharacter:FindFirstChild("HumanoidRootPart")
+	
+		if myRoot and targetRoot then
+			myRoot.CFrame = targetRoot.CFrame * CFrame.new(3, 0, 0)
+		end
+	end
+	
+	local function toggle()
+		enabled = not enabled
+		button.Text = enabled and "TELEPORT: ON" or "TELEPORT: OFF"
+	end
+	
+	button.Activated:Connect(function()
+		if not enabled then
+			-- First click enables it
+			toggle()
+		else
+			-- Subsequent click teleports
+			teleportToPlayer()
+		end
+	end)
+	
+	button.Text = "TELEPORT: OFF"
+end
+coroutine.wrap(COPO_fake_script)()
+local function REBI_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		-- Find the ScreenGui containing the button
+		local screenGui = button:FindFirstAncestorOfClass("ScreenGui")
+	
+		if screenGui then
+			screenGui:Destroy()
+		end
+	end)
+end
+coroutine.wrap(REBI_fake_script)()
+local function GESUYNS_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local frame = script.Parent
+	
+	frame.Visible = true
+	
+	UserInputService.InputBegan:Connect(function(input, gameProcessed)
+		if gameProcessed then
+			return
+		end
+	
+		if input.KeyCode == Enum.KeyCode.RightShift then
+			frame.Visible = not frame.Visible
+		end
+	end)
+end
+coroutine.wrap(GESUYNS_fake_script)()
 
