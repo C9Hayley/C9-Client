@@ -12,6 +12,11 @@ __        _______ _     ____ ___  __  __ _____   _____ ___
      
      A CLIENT THAT WILL ALWAYS BE FREE AND OPEN SOURCE!!
 --]]
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
 local C9Client = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local Frame_2 = Instance.new("Frame")
@@ -169,7 +174,7 @@ ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ScrollingFrame.BorderSizePixel = 0
 ScrollingFrame.Position = UDim2.new(-0.00276243105, 0, 0.0859030858, 0)
 ScrollingFrame.Size = UDim2.new(0, 363, 0, 415)
-ScrollingFrame.CanvasPosition = Vector2.new(0, 300)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 200)
 
 TextLabel_3.Parent = ScrollingFrame
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
@@ -824,7 +829,7 @@ ImageLabel.Image = "rbxassetid://128372267928284"
 
 -- Scripts:
 
-local function VWBHY_fake_script() -- C9Client.LocalScript 
+local function SWHFFPV_fake_script() -- C9Client.LocalScript 
 	local script = Instance.new('LocalScript', C9Client)
 
 	game.StarterGui:SetCore("SendNotification", {
@@ -836,8 +841,8 @@ local function VWBHY_fake_script() -- C9Client.LocalScript
 		
 	})
 end
-coroutine.wrap(VWBHY_fake_script)()
-local function VJYXD_fake_script() -- Frame.Drag script 
+coroutine.wrap(SWHFFPV_fake_script)()
+local function ZZGJ_fake_script() -- Frame.Drag script 
 	local script = Instance.new('LocalScript', Frame)
 
 	--Credits go to whoever made this script.
@@ -881,8 +886,8 @@ local function VJYXD_fake_script() -- Frame.Drag script
 	drag(script.Parent)
 	
 end
-coroutine.wrap(VJYXD_fake_script)()
-local function PUWAJG_fake_script() -- Frame.LocalScript 
+coroutine.wrap(ZZGJ_fake_script)()
+local function MGZYRDS_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -901,8 +906,8 @@ local function PUWAJG_fake_script() -- Frame.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PUWAJG_fake_script)()
-local function MIPHKD_fake_script() -- CriminalSniper.Script 
+coroutine.wrap(MGZYRDS_fake_script)()
+local function TFACQA_fake_script() -- CriminalSniper.Script 
 	local script = Instance.new('Script', CriminalSniper)
 
 	function Click()
@@ -917,7 +922,7 @@ local function MIPHKD_fake_script() -- CriminalSniper.Script
 	
 		-- Teleport somewhere
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-914.196655, 94.1288605, 2031.61743, -1, 4.44984529e-08, 5.47082664e-06, 4.44991812e-08, 1, 1.33368346e-07, -5.47082664e-06, 1.33368587e-07, -1)
-			wait(0.2)
+			wait(0)
 			local args = {
 				workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("M700"):WaitForChild("model2")
 			}
@@ -933,7 +938,7 @@ local function MIPHKD_fake_script() -- CriminalSniper.Script
 			}
 			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
 	
-			task.wait(0)
+			task.wait(0.3)
 	
 			-- Return to original position
 			root.CFrame = originalCFrame
@@ -942,8 +947,8 @@ local function MIPHKD_fake_script() -- CriminalSniper.Script
 		script.Parent.MouseButton1Down:connect(Click)
 	
 end
-coroutine.wrap(MIPHKD_fake_script)()
-local function TDQAG_fake_script() -- freecam.GuiClick_Script 
+coroutine.wrap(TFACQA_fake_script)()
+local function TAPVXOP_fake_script() -- freecam.GuiClick_Script 
 	local script = Instance.new('LocalScript', freecam)
 
 	function OnClicked() 
@@ -1418,8 +1423,8 @@ local function TDQAG_fake_script() -- freecam.GuiClick_Script
 	
 	script.Parent.MouseButton1Down:connect(OnClicked)
 end
-coroutine.wrap(TDQAG_fake_script)()
-local function BOOU_fake_script() -- SpeedButton.LocalScript 
+coroutine.wrap(TAPVXOP_fake_script)()
+local function LCZL_fake_script() -- SpeedButton.LocalScript 
 	local script = Instance.new('LocalScript', SpeedButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1429,8 +1434,8 @@ local function BOOU_fake_script() -- SpeedButton.LocalScript
 		hum.WalkSpeed = script.Parent.Parent.UsernameBox.Text
 	end)
 end
-coroutine.wrap(BOOU_fake_script)()
-local function TFJLWYJ_fake_script() -- FollowButton.LocalScript 
+coroutine.wrap(LCZL_fake_script)()
+local function ZCVPO_fake_script() -- FollowButton.LocalScript 
 	local script = Instance.new('LocalScript', FollowButton)
 
 	local Players = game:GetService("Players")
@@ -1572,8 +1577,8 @@ local function TFJLWYJ_fake_script() -- FollowButton.LocalScript
 	
 	button.Text = "FOLLOW: OFF"
 end
-coroutine.wrap(TFJLWYJ_fake_script)()
-local function VUTIIY_fake_script() -- TeleportButton.LocalScript 
+coroutine.wrap(ZCVPO_fake_script)()
+local function RKMP_fake_script() -- TeleportButton.LocalScript 
 	local script = Instance.new('LocalScript', TeleportButton)
 
 	local Players = game:GetService("Players")
@@ -1671,8 +1676,8 @@ local function VUTIIY_fake_script() -- TeleportButton.LocalScript
 	
 	button.Text = "TELEPORT: OFF"
 end
-coroutine.wrap(VUTIIY_fake_script)()
-local function LSHCVJE_fake_script() -- ViewButton.LocalScript 
+coroutine.wrap(RKMP_fake_script)()
+local function NLOB_fake_script() -- ViewButton.LocalScript 
 	local script = Instance.new('LocalScript', ViewButton)
 
 	local Players = game:GetService("Players")
@@ -1840,8 +1845,8 @@ local function LSHCVJE_fake_script() -- ViewButton.LocalScript
 	
 	button.Text = "VIEW: OFF"
 end
-coroutine.wrap(LSHCVJE_fake_script)()
-local function FHVU_fake_script() -- AKREM.Script 
+coroutine.wrap(NLOB_fake_script)()
+local function BVMJT_fake_script() -- AKREM.Script 
 	local script = Instance.new('Script', AKREM)
 
 	function Click()
@@ -1856,7 +1861,7 @@ local function FHVU_fake_script() -- AKREM.Script
 	
 		-- Teleport somewhere
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-935.870117, 96.9283524, 2034.56262, 0.999991179, 4.48790693e-08, 0.00419658748, -4.44985098e-08, 1, -9.07763322e-08, -0.00419658748, 9.05887916e-08, 0.999991179)
-		wait(0.2)
+		wait(0)
 		local args = {
 			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("AK-47"):WaitForChild("Meshes/AK47_7")
 		}
@@ -1869,7 +1874,7 @@ local function FHVU_fake_script() -- AKREM.Script
 		}
 		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
 	
-		task.wait(0)
+		task.wait(0.3)
 	
 		-- Return to original position
 		root.CFrame = originalCFrame
@@ -1878,8 +1883,8 @@ local function FHVU_fake_script() -- AKREM.Script
 	script.Parent.MouseButton1Down:connect(Click)
 	
 end
-coroutine.wrap(FHVU_fake_script)()
-local function IJVXI_fake_script() -- Swatload.Script 
+coroutine.wrap(BVMJT_fake_script)()
+local function JGRPMV_fake_script() -- Swatload.Script 
 	local script = Instance.new('Script', Swatload)
 
 	function Click()
@@ -1894,7 +1899,7 @@ local function IJVXI_fake_script() -- Swatload.Script
 	
 		-- Teleport somewhere
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(849.804321, 101.07795, 2225.5249, -0.999986172, -0.000247111253, 0.0052540875, -0.000280417386, 0.999979854, -0.00633929996, -0.00525241531, -0.0063406853, -0.999966085)
-		wait(0.2)
+		wait(0)
 		local args = {
 			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("M4A1"):WaitForChild("Mesh")
 		}
@@ -1910,7 +1915,7 @@ local function IJVXI_fake_script() -- Swatload.Script
 		}
 		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
 	
-		task.wait(0)
+		task.wait(0.3)
 	
 		-- Return to original position
 		root.CFrame = originalCFrame
@@ -1919,8 +1924,8 @@ local function IJVXI_fake_script() -- Swatload.Script
 	script.Parent.MouseButton1Down:connect(Click)
 	
 end
-coroutine.wrap(IJVXI_fake_script)()
-local function EWBHQP_fake_script() -- SwatVest.Script 
+coroutine.wrap(JGRPMV_fake_script)()
+local function AJCCVCA_fake_script() -- SwatVest.Script 
 	local script = Instance.new('Script', SwatVest)
 
 	function Click()
@@ -1935,14 +1940,14 @@ local function EWBHQP_fake_script() -- SwatVest.Script
 	
 		-- Teleport somewhere
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(849.804321, 101.07795, 2225.5249, -0.999986172, -0.000247111253, 0.0052540875, -0.000280417386, 0.999979854, -0.00633929996, -0.00525241531, -0.0063406853, -0.999966085)
-		wait(0.2)
+		wait(0)
 		
 		local args = {
 			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("clothes"):WaitForChild("Riot Police"):WaitForChild("Torso")
 		}
 		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
 	
-		task.wait(0)
+		task.wait(0.3)
 	
 		-- Return to original position
 		root.CFrame = originalCFrame
@@ -1951,8 +1956,8 @@ local function EWBHQP_fake_script() -- SwatVest.Script
 	script.Parent.MouseButton1Down:connect(Click)
 	
 end
-coroutine.wrap(EWBHQP_fake_script)()
-local function YRIZU_fake_script() -- MafiaVest.Script 
+coroutine.wrap(AJCCVCA_fake_script)()
+local function YPFMP_fake_script() -- MafiaVest.Script 
 	local script = Instance.new('Script', MafiaVest)
 
 	function Click()
@@ -1983,8 +1988,8 @@ local function YRIZU_fake_script() -- MafiaVest.Script
 	script.Parent.MouseButton1Down:connect(Click)
 	
 end
-coroutine.wrap(YRIZU_fake_script)()
-local function OQMI_fake_script() -- Mafia.Script 
+coroutine.wrap(YPFMP_fake_script)()
+local function LWKQ_fake_script() -- Mafia.Script 
 	local script = Instance.new('Script', Mafia)
 
 	function Click()
@@ -1999,7 +2004,7 @@ local function OQMI_fake_script() -- Mafia.Script
 	
 		-- Teleport somewhere
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-897.666748, 96.1012421, 2043.02209, -0.180324107, -0.00237239711, 0.983604372, 0.000651269918, 0.999996603, 0.0025313315, -0.983607054, 0.00109705201, -0.180321947)
-		wait(0.2)
+		wait(0)
 		local args = {
 			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("FAL"):WaitForChild("Part")
 		}
@@ -2024,7 +2029,7 @@ local function OQMI_fake_script() -- Mafia.Script
 		}
 		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
 	
-		task.wait(0)
+		task.wait(0.3)
 	
 		-- Return to original position
 		root.CFrame = originalCFrame
@@ -2033,8 +2038,8 @@ local function OQMI_fake_script() -- Mafia.Script
 	script.Parent.MouseButton1Down:connect(Click)
 	
 end
-coroutine.wrap(OQMI_fake_script)()
-local function MAYD_fake_script() -- MP5REM.Script 
+coroutine.wrap(LWKQ_fake_script)()
+local function LVCUX_fake_script() -- MP5REM.Script 
 	local script = Instance.new('Script', MP5REM)
 
 	function Click()
@@ -2049,7 +2054,7 @@ local function MAYD_fake_script() -- MP5REM.Script
 	
 		-- Teleport somewhere
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(815.328064, 101.194382, 2225.51099, 0.999999166, -0.000486507488, -0.00119249092, 0.00048351931, 0.999996722, -0.00250485237, 0.0011937056, 0.00250427355, 0.999996126)
-		wait(0.2)
+		wait(0)
 		local args = {
 			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("MP5"):WaitForChild("Meshes/MP5 (2)")
 		}
@@ -2060,7 +2065,7 @@ local function MAYD_fake_script() -- MP5REM.Script
 		}
 		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
 	
-		task.wait(0)
+		task.wait(0.3)
 	
 		-- Return to original position
 		root.CFrame = originalCFrame
@@ -2069,8 +2074,8 @@ local function MAYD_fake_script() -- MP5REM.Script
 	script.Parent.MouseButton1Down:connect(Click)
 	
 end
-coroutine.wrap(MAYD_fake_script)()
-local function RGJMWA_fake_script() -- M4REm.Script 
+coroutine.wrap(LVCUX_fake_script)()
+local function CWWPAQ_fake_script() -- M4REm.Script 
 	local script = Instance.new('Script', M4REm)
 
 	function Click()
@@ -2085,7 +2090,7 @@ local function RGJMWA_fake_script() -- M4REm.Script
 	
 		-- Teleport somewhere
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(849.804321, 101.07795, 2225.5249, -0.999986172, -0.000247111253, 0.0052540875, -0.000280417386, 0.999979854, -0.00633929996, -0.00525241531, -0.0063406853, -0.999966085)
-		wait(0.2)
+		wait(0)
 		local args = {
 			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("M4A1"):WaitForChild("Mesh")
 		}
@@ -2097,7 +2102,7 @@ local function RGJMWA_fake_script() -- M4REm.Script
 		}
 		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
 	
-		task.wait(0)
+		task.wait(0.3)
 	
 		-- Return to original position
 		root.CFrame = originalCFrame
@@ -2106,8 +2111,8 @@ local function RGJMWA_fake_script() -- M4REm.Script
 	script.Parent.MouseButton1Down:connect(Click)
 	
 end
-coroutine.wrap(RGJMWA_fake_script)()
-local function HZAQ_fake_script() -- LightVest.Script 
+coroutine.wrap(CWWPAQ_fake_script)()
+local function BVMR_fake_script() -- LightVest.Script 
 	local script = Instance.new('Script', LightVest)
 
 	function Click()
@@ -2122,12 +2127,13 @@ local function HZAQ_fake_script() -- LightVest.Script
 	
 		-- Teleport somewhere
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-914.196655, 94.1288605, 2031.61743, -1, 4.44984529e-08, 5.47082664e-06, 4.44991812e-08, 1, 1.33368346e-07, -5.47082664e-06, 1.33368587e-07, -1)
+		wait(0)
 			local args = {
 				workspace:WaitForChild("Prison_ITEMS"):WaitForChild("clothes"):WaitForChild("Light Vest"):WaitForChild("Torso")
 			}
 			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
 	
-			task.wait(0.2)
+			task.wait(0.3)
 	
 			-- Return to original position
 			root.CFrame = originalCFrame
@@ -2136,8 +2142,8 @@ local function HZAQ_fake_script() -- LightVest.Script
 		script.Parent.MouseButton1Down:connect(Click)
 	
 end
-coroutine.wrap(HZAQ_fake_script)()
-local function DNJE_fake_script() -- GuardSnip.Script 
+coroutine.wrap(BVMR_fake_script)()
+local function EXERAH_fake_script() -- GuardSnip.Script 
 	local script = Instance.new('Script', GuardSnip)
 
 	function Click()
@@ -2152,7 +2158,7 @@ local function DNJE_fake_script() -- GuardSnip.Script
 	
 		-- Teleport somewhere
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(831.453918, 101.160385, 2225.52759, -0.999999642, 0.000827529817, -0.000102466365, 0.00082747353, 0.999999523, 0.000548450334, 0.000102920174, 0.000548365351, -0.999999821)
-			wait(0.2)
+			wait(0)
 			local args = {
 				workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("M700"):WaitForChild("model2")
 			}
@@ -2168,7 +2174,7 @@ local function DNJE_fake_script() -- GuardSnip.Script
 			}
 			game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
 	
-			task.wait(0)
+			task.wait(0.3)
 	
 			-- Return to original position
 			root.CFrame = originalCFrame
@@ -2177,8 +2183,8 @@ local function DNJE_fake_script() -- GuardSnip.Script
 		script.Parent.MouseButton1Down:connect(Click)
 	
 end
-coroutine.wrap(DNJE_fake_script)()
-local function IRJZAD_fake_script() -- Grabsniper.Script 
+coroutine.wrap(EXERAH_fake_script)()
+local function YXJCYXP_fake_script() -- Grabsniper.Script 
 	local script = Instance.new('Script', Grabsniper)
 
 	function Click()
@@ -2199,17 +2205,17 @@ local function IRJZAD_fake_script() -- Grabsniper.Script
 		}
 		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
 	
-		task.wait(0)
+		task.wait(0.3)
 	
 		-- Return to original position
 		root.CFrame = originalCFrame
 	end
 	
 	script.Parent.MouseButton1Down:connect(Click)
-	
+	print("Give gun")
 end
-coroutine.wrap(IRJZAD_fake_script)()
-local function HCHABFL_fake_script() -- Grabm4a1.Script 
+coroutine.wrap(YXJCYXP_fake_script)()
+local function AYQRLI_fake_script() -- Grabm4a1.Script 
 	local script = Instance.new('Script', Grabm4a1)
 
 	function Click()
@@ -2229,7 +2235,7 @@ local function HCHABFL_fake_script() -- Grabm4a1.Script
 			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("M4A1"):WaitForChild("Mesh")
 		}
 		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
-		task.wait(0)
+		task.wait(0.3)
 	
 		-- Return to original position
 		root.CFrame = originalCFrame
@@ -2238,8 +2244,8 @@ local function HCHABFL_fake_script() -- Grabm4a1.Script
 	script.Parent.MouseButton1Down:connect(Click)
 	
 end
-coroutine.wrap(HCHABFL_fake_script)()
-local function RIMSC_fake_script() -- GrabShotgun.Script 
+coroutine.wrap(AYQRLI_fake_script)()
+local function TOVCZ_fake_script() -- GrabShotgun.Script 
 	local script = Instance.new('Script', GrabShotgun)
 
 	function Click()
@@ -2254,7 +2260,7 @@ local function RIMSC_fake_script() -- GrabShotgun.Script
 	
 		-- Teleport somewhere
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(815.328064, 101.194382, 2225.51099, 0.999999166, -0.000486507488, -0.00119249092, 0.00048351931, 0.999996722, -0.00250485237, 0.0011937056, 0.00250427355, 0.999996126)
-		wait(0.2)
+		wait(0.3)
 		local args = {
 			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("Remington 870"):WaitForChild("Meshes/r870_2")
 		}
@@ -2263,7 +2269,7 @@ local function RIMSC_fake_script() -- GrabShotgun.Script
 	
 	
 		-- Wait 3 seconds
-		task.wait(0.1)
+		task.wait(0.3)
 	
 		-- Return to original position
 		root.CFrame = originalCFrame
@@ -2272,8 +2278,8 @@ local function RIMSC_fake_script() -- GrabShotgun.Script
 	script.Parent.MouseButton1Down:connect(Click)
 	
 end
-coroutine.wrap(RIMSC_fake_script)()
-local function SGEG_fake_script() -- GrabRev.Script 
+coroutine.wrap(TOVCZ_fake_script)()
+local function SFXLJS_fake_script() -- GrabRev.Script 
 	local script = Instance.new('Script', GrabRev)
 
 	function Click()
@@ -2288,13 +2294,13 @@ local function SGEG_fake_script() -- GrabRev.Script
 	
 		-- Teleport somewhere
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-914.196655, 94.1288605, 2031.61743, -1, 4.44984529e-08, 5.47082664e-06, 4.44991812e-08, 1, 1.33368346e-07, -5.47082664e-06, 1.33368587e-07, -1)
-		wait(0.2)
+		wait(0.3)
 		local args = {
 			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("Revolver"):WaitForChild("Meshes/revolver (3)")
 		}
 		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
 	
-		task.wait(0)
+		task.wait(03)
 	
 		-- Return to original position
 		root.CFrame = originalCFrame
@@ -2303,8 +2309,8 @@ local function SGEG_fake_script() -- GrabRev.Script
 	script.Parent.MouseButton1Down:connect(Click)
 	
 end
-coroutine.wrap(SGEG_fake_script)()
-local function LNWNSI_fake_script() -- GrabMP5.Script 
+coroutine.wrap(SFXLJS_fake_script)()
+local function YBNLXA_fake_script() -- GrabMP5.Script 
 	local script = Instance.new('Script', GrabMP5)
 
 	function Click()
@@ -2319,13 +2325,13 @@ local function LNWNSI_fake_script() -- GrabMP5.Script
 	
 		-- Teleport somewhere
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(815.328064, 101.194382, 2225.51099, 0.999999166, -0.000486507488, -0.00119249092, 0.00048351931, 0.999996722, -0.00250485237, 0.0011937056, 0.00250427355, 0.999996126)
-		wait(0.2)
+		wait(0.3)
 		local args = {
 			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("MP5"):WaitForChild("Meshes/MP5 (2)")
 		}
 		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
 	
-		task.wait(0)
+		task.wait(0.3)
 	
 		-- Return to original position
 		root.CFrame = originalCFrame
@@ -2334,8 +2340,8 @@ local function LNWNSI_fake_script() -- GrabMP5.Script
 	script.Parent.MouseButton1Down:connect(Click)
 	
 end
-coroutine.wrap(LNWNSI_fake_script)()
-local function RGTAE_fake_script() -- GrabFAL.Script 
+coroutine.wrap(YBNLXA_fake_script)()
+local function DNFLLMB_fake_script() -- GrabFAL.Script 
 	local script = Instance.new('Script', GrabFAL)
 
 	function Click()
@@ -2350,13 +2356,13 @@ local function RGTAE_fake_script() -- GrabFAL.Script
 	
 		-- Teleport somewhere
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-897.666748, 96.1012421, 2043.02209, -0.180324107, -0.00237239711, 0.983604372, 0.000651269918, 0.999996603, 0.0025313315, -0.983607054, 0.00109705201, -0.180321947)
-		wait(0.2)
+		wait(0.3)
 		local args = {
 			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("FAL"):WaitForChild("Part")
 		}
 		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
 	
-		task.wait(0)
+		task.wait(0.3)
 	
 		-- Return to original position
 		root.CFrame = originalCFrame
@@ -2365,8 +2371,8 @@ local function RGTAE_fake_script() -- GrabFAL.Script
 	script.Parent.MouseButton1Down:connect(Click)
 	
 end
-coroutine.wrap(RGTAE_fake_script)()
-local function CEZPKDU_fake_script() -- GrabC4.Script 
+coroutine.wrap(DNFLLMB_fake_script)()
+local function IPBVO_fake_script() -- GrabC4.Script 
 	local script = Instance.new('Script', GrabC4)
 
 	function Click()
@@ -2381,14 +2387,14 @@ local function CEZPKDU_fake_script() -- GrabC4.Script
 	
 		-- Teleport somewhere
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-897.666748, 96.1012421, 2043.02209, -0.180324107, -0.00237239711, 0.983604372, 0.000651269918, 0.999996603, 0.0025313315, -0.983607054, 0.00109705201, -0.180321947)
-		wait(0.2)
+		wait(0)
 		local args = {
 			workspace:WaitForChild("Prison_ITEMS"):WaitForChild("giver"):WaitForChild("C4 Explosive"):WaitForChild("Explosive")
 		}
 		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
 	
 		-- Wait 3 seconds
-		task.wait(0.1)
+		task.wait(0.3)
 	
 		-- Return to original position
 		root.CFrame = originalCFrame
@@ -2397,8 +2403,8 @@ local function CEZPKDU_fake_script() -- GrabC4.Script
 	script.Parent.MouseButton1Down:connect(Click)
 	
 end
-coroutine.wrap(CEZPKDU_fake_script)()
-local function TYAO_fake_script() -- GrabAK.Script 
+coroutine.wrap(IPBVO_fake_script)()
+local function HCUE_fake_script() -- GrabAK.Script 
 	local script = Instance.new('Script', GrabAK)
 
 	function Click()
@@ -2419,7 +2425,7 @@ local function TYAO_fake_script() -- GrabAK.Script
 		}
 		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("InteractWithItem"):InvokeServer(unpack(args))
 	
-		task.wait(0.2)
+		task.wait(0.3)
 	
 		-- Return to original position
 		root.CFrame = originalCFrame
@@ -2428,8 +2434,8 @@ local function TYAO_fake_script() -- GrabAK.Script
 	script.Parent.MouseButton1Down:connect(Click)
 	
 end
-coroutine.wrap(TYAO_fake_script)()
-local function EUNK_fake_script() -- ESP.LocalScript 
+coroutine.wrap(HCUE_fake_script)()
+local function HQZOLAN_fake_script() -- ESP.LocalScript 
 	local script = Instance.new('LocalScript', ESP)
 
 	local Players = game:GetService("Players")
@@ -2539,8 +2545,8 @@ local function EUNK_fake_script() -- ESP.LocalScript
 		end)
 	end
 end
-coroutine.wrap(EUNK_fake_script)()
-local function HQIXK_fake_script() -- fly.LocalScript 
+coroutine.wrap(HQZOLAN_fake_script)()
+local function JFGEY_fake_script() -- fly.LocalScript 
 	local script = Instance.new('LocalScript', fly)
 
 	local Players = game:GetService("Players")
@@ -2668,8 +2674,8 @@ local function HQIXK_fake_script() -- fly.LocalScript
 	
 	button.Text = "FLY: OFF"
 end
-coroutine.wrap(HQIXK_fake_script)()
-local function HBNAPI_fake_script() -- aimlock.LocalScript 
+coroutine.wrap(JFGEY_fake_script)()
+local function ZYCAGH_fake_script() -- aimlock.LocalScript 
 	local script = Instance.new('LocalScript', aimlock)
 
 	local Players = game:GetService("Players")
@@ -2791,8 +2797,8 @@ local function HBNAPI_fake_script() -- aimlock.LocalScript
 	
 	button.Text = "AIMLOCK: OFF"
 end
-coroutine.wrap(HBNAPI_fake_script)()
-local function RGLRAPS_fake_script() -- clicktp.LocalScript 
+coroutine.wrap(ZYCAGH_fake_script)()
+local function QDZB_fake_script() -- clicktp.LocalScript 
 	local script = Instance.new('LocalScript', clicktp)
 
 	local Players = game:GetService("Players")
@@ -2839,56 +2845,69 @@ local function RGLRAPS_fake_script() -- clicktp.LocalScript
 		tool.Parent = player.Backpack
 	end)
 end
-coroutine.wrap(RGLRAPS_fake_script)()
-local function TAYPGN_fake_script() -- AntiFling.LocalScript 
+coroutine.wrap(QDZB_fake_script)()
+local function MKNHXJ_fake_script() -- AntiFling.LocalScript 
 	local script = Instance.new('LocalScript', AntiFling)
 
 	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
 	
-	local player = Players.LocalPlayer
-	local button = script.Parent
+	local LocalPlayer = Players.LocalPlayer
+	local Button = script.Parent
 	
-	button.MouseButton1Click:Connect(function()
+	local AntiFlingEnabled = false
+	local Connection
 	
-		-- Don't create another one if they already have it
-		if player.Backpack:FindFirstChild("Click TP") then
-			return
-		end
-	
-		if player.Character and player.Character:FindFirstChild("Click TP") then
-			return
-		end
-	
-		-- Create the tool
-		local tool = Instance.new("Tool")
-		tool.Name = "Click TP"
-		tool.RequiresHandle = false
-		tool.CanBeDropped = false
-		tool.ToolTip = "Click somewhere to teleport"
-	
-		-- Click-to-teleport
-		tool.Activated:Connect(function()
-			local mouse = player:GetMouse()
-	
-			if mouse and mouse.Hit then
-				local character = player.Character
-				if not character then return end
-	
-				local root = character:FindFirstChild("HumanoidRootPart")
-				if not root then return end
-	
-				root.CFrame = CFrame.new(
-					mouse.Hit.Position + Vector3.new(0, 3, 0)
-				)
+	local function protectPlayers()
+		for _, player in ipairs(Players:GetPlayers()) do
+			if player ~= LocalPlayer and player.Character then
+				for _, part in ipairs(player.Character:GetDescendants()) do
+					if part:IsA("BasePart") then
+						part.CanCollide = false
+						part.CanTouch = false
+					end
+				end
 			end
+		end
+	end
+	
+	local function enableAntiFling()
+		if AntiFlingEnabled then
+			return
+		end
+	
+		AntiFlingEnabled = true
+	
+		Connection = RunService.Stepped:Connect(function()
+			protectPlayers()
 		end)
 	
-		-- Give the tool
-		tool.Parent = player.Backpack
+		Button.Text = "Anti-Fling: ON"
+	end
+	
+	local function disableAntiFling()
+		AntiFlingEnabled = false
+	
+		if Connection then
+			Connection:Disconnect()
+			Connection = nil
+		end
+	
+		Button.Text = "Anti-Fling: OFF"
+	end
+	
+	Button.MouseButton1Click:Connect(function()
+		if AntiFlingEnabled then
+			disableAntiFling()
+		else
+			enableAntiFling()
+		end
 	end)
+	
+	Button.Text = "Anti-Fling: OFF"
 end
-coroutine.wrap(TAYPGN_fake_script)()
-local function ANMMHJQ_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(MKNHXJ_fake_script)()
+local function NIJAQ_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local button = script.Parent
@@ -2902,20 +2921,21 @@ local function ANMMHJQ_fake_script() -- TextButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ANMMHJQ_fake_script)()
-local function AECUF_fake_script() -- Frame_6.LocalScript 
+coroutine.wrap(NIJAQ_fake_script)()
+local function RRCF_fake_script() -- Frame_6.LocalScript 
 	local script = Instance.new('LocalScript', Frame_6)
 
 	task.wait(7)
 	script.Parent:Destroy()
 end
-coroutine.wrap(AECUF_fake_script)()
-local function TXUHM_fake_script() -- GrabC4_2.Script 
+coroutine.wrap(RRCF_fake_script)()
+local function QXLKVU_fake_script() -- GrabC4_2.Script 
 	local script = Instance.new('Script', GrabC4_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		setclipboard("https://discord.gg/example")
 	end)
 end
-coroutine.wrap(TXUHM_fake_script)()
+coroutine.wrap(QXLKVU_fake_script)()
+
 print("C9 Client Loaded, Made by C9Hayley")
